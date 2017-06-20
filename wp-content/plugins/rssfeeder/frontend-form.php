@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php error_reporting(-1); ?>
+<?php  ?>
   <head>
     <meta charset="utf-8">
     <title>Test Parser</title>
