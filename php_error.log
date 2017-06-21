@@ -1,0 +1,32 @@
+[21-Jun-2017 19:06:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoFeed\Reader\Reader' not found in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:87
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): get_posts_from_feed()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#4 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 87
+[21-Jun-2017 19:08:00 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoFeed\Reader\Reader' not found in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:87
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): get_posts_from_feed()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#4 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 87
+[21-Jun-2017 19:09:14 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoFeed\Reader\Reader' not found in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:87
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): get_posts_from_feed()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#4 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 87
+[21-Jun-2017 19:10:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoFeed\Reader\Reader' not found in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:87
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): get_posts_from_feed()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#4 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 87
