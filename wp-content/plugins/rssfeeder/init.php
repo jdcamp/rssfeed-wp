@@ -16,6 +16,7 @@ function ss_options_install() {
     $sql = "CREATE TABLE $table_name (
             title tinytext NOT NULL,
     		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
             PRIMARY KEY (id)
           ) $charset_collate; ";
 

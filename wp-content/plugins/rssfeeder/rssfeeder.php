@@ -4,6 +4,7 @@ Plugin Name: RSS Feeder
 */
 
 use PicoFeed\Reader\Reader;
+
 require 'vendor/autoload.php';
 require_once 'feed-create.php';
 require_once 'init.php';
@@ -35,146 +36,142 @@ function table_install()
 }
 
 function add_feed_url()
-{
-    global $wpdb;
-    $title = $_POST['title'];
-    $url = $_POST['url'];
-    $wpdb->insert(
-        $wpdb->prefix . 'feeder',
-        array(
-            'title' => $title,
-            'feed_url' => $url,
-        )
-    );
-}
+   {
+   global $wpdb;
+   $title = $_POST['title'];
+   $url = $_POST['url'];
+   $wpdb->insert($wpdb->prefix . 'feeder', array(
+      'title' => $title,
+      'feed_url' => $url,
+   ));
+   }
+
 function is_unique_feed($url)
-{
-    global $wpdb;
-    $result = $wpdb->get_results("SELECT * FROM wp_feeder where feed_url = '$url'");
-    if (empty($result)) {
-        return true;
-    } else {
-        return false;
-    }
-}
+   {
+   global $wpdb;
+   $result = $wpdb->get_results("SELECT * FROM wp_feeder where feed_url = '$url'");
+   if (empty($result))
+      {
+      return true;
+      }
+     else
+      {
+      return false;
+      }
+   }
 
 function add_rss_post_page()
-{
-    add_posts_page('rss feeder', 'rss feeder', 'manage_options', 'rss-feeder', 'rss_form');
-    add_posts_page('feeds', 'feeds', 'manage_options', 'feeds-list', 'sinetiks_feeder_list', 'sinetiks_feeder_update', 'sinetiks_feeder_create');
-}
+   {
+   add_posts_page('rss feeder', 'rss feeder', 'manage_options', 'rss-feeder', 'rss_form');
+   add_posts_page('feeds', 'feeds', 'manage_options', 'feeds-list', 'sinetiks_feeder_list', 'sinetiks_feeder_update', 'sinetiks_feeder_create');
+   }
+
+function check_key_words($sentence, $keywords)
+   {
+   if ($keywords === NULL)
+      {
+      return true;
+      }
+   foreach( (array) $keywords as $keyword)
+      {
+        $keyword = trim($keyword);
+        if (stripos($sentence, $keyword) === false )
+           {
+           return false;
+           }
+      }
+   return true;
+   }
 
 function is_valid_rss_url($url)
-{
-    try {
-        $reader = new Reader;
-        $resource = $reader->download($url);
+   {
+   try
+      {
+      $reader = new Reader;
+      $resource = $reader->download($url);
+      $parser = $reader->getParser($resource->getUrl() , $resource->getContent() , $resource->getEncoding());
+      $feed = $parser->execute();
+      $items = $feed->getItems();
+      return true;
+      }
 
-        $parser = $reader->getParser(
-      $resource->getUrl(),
-      $resource->getContent(),
-      $resource->getEncoding()
-    );
-
-        $feed = $parser->execute();
-        $test = $feed->getItems();
-        return true;
-    } catch (Exception $e) {
-        return false;
-    }
-}
+   catch(Exception $e)
+      {
+      return false;
+      }
+   }
 
 function get_posts_from_feed()
-{
-    global $wpdb;
-    $result = $wpdb->get_results("SELECT * FROM wp_feeder");
-    foreach ($result as $queried_feed) {
-        $my_feed = $queried_feed->feed_url;
-        $reader = new Reader;
-        $resource = $reader->download($my_feed);
+   {
+   global $wpdb;
+   $result = $wpdb->get_results("SELECT * FROM wp_feeder");
+   foreach($result as $queried_feed)
+      {
+      $my_feed = $queried_feed->feed_url;
+      $keywords = $queried_feed->keywords;
+      if ($keywords)
+         {
+        $keywords = explode(',', $keywords);
+         }
 
-      $parser = $reader->getParser(
-      $resource->getUrl(),
-      $resource->getContent(),
-      $resource->getEncoding()
-  );
+      $reader = new Reader;
+      $resource = $reader->download($my_feed);
+      $parser = $reader->getParser($resource->getUrl() , $resource->getContent() , $resource->getEncoding());
+      $feed = $parser->execute();
+      $items = $feed->getItems();
 
-        $feed = $parser->execute();
-        $test = $feed->getItems();
-  // var_dump($test);
-  // for ($j=0; $j < $item_count ; $j++) {
-  foreach ($test as $item) {
-      // }
-      $title = $item->getTitle();
-      if (!get_page_by_title($title, 'OBJECT', 'post')) {
-          $author = $item->getAuthor();
-          $url = $item->getUrl();
-          $body = wp_trim_words($item->getContent(),$num_words = 64, $more = '<br><a href="' . $url . '"> Read More Here</a>' );
-          $date = $item->getPublishedDate();
-          $date = date_format($date, 'Y-m-d H:i:s');
-          $id = $item->getId();
-          $args = array(
-              'post_author' => $author,
-              'post_content' => $body,
-              'post_title' => $title,
-              'post_status' => "publish",
-              'post_type' => "post",
-              'guid' => $id,
-          );
-          wp_insert_post($args);
+      // var_dump($items);
+      // for ($j=0; $j < $item_count ; $j++) {
+
+      foreach($items as $item)
+         {
+         $title = $item->getTitle();
+         if (!get_page_by_title($title, 'OBJECT', 'post'))
+            {
+            $body = $item->getContent();
+            if (check_key_words($body, $keywords) || check_key_words($title, $keywords))
+               {
+
+                  $author = $item->getAuthor();
+                  $url = $item->getUrl();
+                  $body = wp_trim_words($item->getContent() , $num_words = 64, $more = '<br /><a href="' . $url . '"> Read More Here</a>');
+                  $date = $item->getPublishedDate();
+                  $date = date_format($date, 'Y-m-d H:i:s');
+                  $id = $item->getId();
+                  $args = array(
+                     'post_author' => $author,
+                     'post_content' => $body,
+                     'post_title' => $title,
+                     'post_status' => "publish",
+                     'post_type' => "post",
+                     'guid' => $id,
+                  );
+                  wp_insert_post($args);
+
+               }
+            }
+         }
       }
-    }
-  }
-}
-// function rss_form()
-// {
-//     if (isset($_POST['url'])) {
-//         error_reporting(-1);
-//         date_default_timezone_set('America/Los_Angeles');
-//         require 'vendor/autoload.php';
-//
-//         $my_feed = $_POST['url'];
-//         if (is_valid_rss_url($my_feed) && is_duplicate_feed($my_feed)) {
-//             sinetiks_feeder_create();
-//             echo $my_feed . " added";
-//         } else {
-//             echo "Invalid URL";
-//         }
-//     }
-//     echo <<<EOD
-//     <form class="" action="" method="post">
-//         <label for="Title">Feed Title</label>
-//         <input type="text" name="title" value="" required=true><br>
-//         <label for="Url">Url Feed</label>
-//         <input type="text" name="url" value="" required=true><br>
-//         <input type="submit" name="" value="Submit">
-//     </form>
-// EOD;
-// }
-
-// function get_feeds()
-// {
-//     global $wpdb;
-//     $result = $wpdb->get_results("SELECT * FROM wp_feeder");
-//     foreach ($result as $print) {
-//         echo '<p>'. $print->title. ":  " . $print->feed_url . '</p>';
-//     }
-// }
+   }
 
 add_filter('cron_schedules', 'isa_add_every_three_minutes');
+
 function isa_add_every_three_minutes($schedules)
-{
-    $schedules['every_three_minutes'] = array(
-            'interval'  => 160,
-            'display'   => __('Every 3 Minutes', 'textdomain')
-    );
-    return $schedules;
-}
+   {
+   $schedules['every_three_minutes'] = array(
+      'interval' => 45,
+      'display' => __('Every 3 Minutes', 'textdomain')
+   );
+   return $schedules;
+   }
 
 // Schedule an action if it's not already scheduled
-if (! wp_next_scheduled('isa_add_every_three_minutes')) {
-    wp_schedule_event(time(), 'every_three_minutes', 'isa_add_every_three_minutes');
-}
+
+if (!wp_next_scheduled('isa_add_every_three_minutes'))
+   {
+   wp_schedule_event(time() , 'every_three_minutes', 'isa_add_every_three_minutes');
+   }
 
 // Hook into that action that'll fire every three minutes
+
 add_action('isa_add_every_three_minutes', 'get_posts_from_feed');
