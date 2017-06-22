@@ -5,8 +5,12 @@ Plugin Name: RSS Feeder
 
 use PicoFeed\Reader\Reader;
 require 'vendor/autoload.php';
+require_once 'feed-create.php';
+require_once 'init.php';
+require_once 'feed-update.php';
+require_once 'feed-list.php';
 
-add_action('admin_menu', 'add_rss_post_page', 'add_feed_menu_page');
+//add_action('admin_menu', 'add_feed_menu_page');
 //on install runs table_install()
 register_activation_hook(__FILE__, 'table_install');
 
@@ -43,7 +47,7 @@ function add_feed_url()
         )
     );
 }
-function is_duplicate_feed($url)
+function is_unique_feed($url)
 {
     global $wpdb;
     $result = $wpdb->get_results("SELECT * FROM wp_feeder where feed_url = '$url'");
@@ -57,7 +61,7 @@ function is_duplicate_feed($url)
 function add_rss_post_page()
 {
     add_posts_page('rss feeder', 'rss feeder', 'manage_options', 'rss-feeder', 'rss_form');
-    add_posts_page('feeds', 'feeds', 'manage_options', 'feeds-list', 'get_feeds');
+    add_posts_page('feeds', 'feeds', 'manage_options', 'feeds-list', 'sinetiks_feeder_list', 'sinetiks_feeder_update', 'sinetiks_feeder_create');
 }
 
 function is_valid_rss_url($url)
@@ -79,6 +83,7 @@ function is_valid_rss_url($url)
         return false;
     }
 }
+
 function get_posts_from_feed()
 {
     global $wpdb;
@@ -121,41 +126,40 @@ function get_posts_from_feed()
     }
   }
 }
-function rss_form()
-{
-    if (isset($_POST['url'])) {
-        error_reporting(-1);
-        date_default_timezone_set('America/Los_Angeles');
-        require 'vendor/autoload.php';
+// function rss_form()
+// {
+//     if (isset($_POST['url'])) {
+//         error_reporting(-1);
+//         date_default_timezone_set('America/Los_Angeles');
+//         require 'vendor/autoload.php';
+//
+//         $my_feed = $_POST['url'];
+//         if (is_valid_rss_url($my_feed) && is_duplicate_feed($my_feed)) {
+//             sinetiks_feeder_create();
+//             echo $my_feed . " added";
+//         } else {
+//             echo "Invalid URL";
+//         }
+//     }
+//     echo <<<EOD
+//     <form class="" action="" method="post">
+//         <label for="Title">Feed Title</label>
+//         <input type="text" name="title" value="" required=true><br>
+//         <label for="Url">Url Feed</label>
+//         <input type="text" name="url" value="" required=true><br>
+//         <input type="submit" name="" value="Submit">
+//     </form>
+// EOD;
+// }
 
-        $my_feed = $_POST['url'];
-        if (is_valid_rss_url($my_feed) && is_duplicate_feed($my_feed)) {
-            add_feed_url();
-            echo $my_feed . " added";
-        } else {
-            echo "Invalid URL";
-        }
-    }
-    echo <<<EOD
-    <form class="" action="" method="post">
-        <label for="Title">Feed Title</label>
-        <input type="text" name="title" value="" required=true><br>
-        <label for="Url">Url Feed</label>
-        <input type="text" name="url" value="" required=true><br>
-        <input type="submit" name="" value="Submit">
-    </form>
-EOD;
-}
-
-function get_feeds()
-{
-    global $wpdb;
-    $result = $wpdb->get_results("SELECT * FROM wp_feeder");
-    foreach ($result as $print) {
-        echo '<p>'. $print->title. ":  " . $print->feed_url . '</p>';
-    }
-}
-
+// function get_feeds()
+// {
+//     global $wpdb;
+//     $result = $wpdb->get_results("SELECT * FROM wp_feeder");
+//     foreach ($result as $print) {
+//         echo '<p>'. $print->title. ":  " . $print->feed_url . '</p>';
+//     }
+// }
 
 add_filter('cron_schedules', 'isa_add_every_three_minutes');
 function isa_add_every_three_minutes($schedules)

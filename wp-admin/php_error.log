@@ -1,0 +1,372 @@
+[21-Jun-2017 20:25:08 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:25:08 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:25:08 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:25:08 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:25:45 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:25:45 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:25:45 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:25:45 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:25:53 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:25:53 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:28:32 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:28:32 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:28:32 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:28:32 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:28:39 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:28:39 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[21-Jun-2017 20:28:39 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:28:47 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:28:47 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:28:47 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:28:47 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:28:54 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:28:54 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[21-Jun-2017 20:28:54 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:29:17 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:29:17 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:29:17 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:29:17 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:29:24 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:29:24 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[21-Jun-2017 20:29:24 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:29:49 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:29:49 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:29:49 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:29:49 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:29:55 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:29:55 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:30:28 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:30:28 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:30:28 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:30:28 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:30:33 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:30:33 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:32:04 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:32:04 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:32:04 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:32:04 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:32:15 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:32:15 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:32:15 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 35
+[21-Jun-2017 20:32:15 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 39
+[21-Jun-2017 20:34:16 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:34:16 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:34:16 UTC] PHP Notice:  Undefined property: stdClass::$feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 28
+[21-Jun-2017 20:34:16 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:34:16 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:34:41 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:34:41 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:34:41 UTC] PHP Notice:  Undefined property: stdClass::$feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 28
+[21-Jun-2017 20:34:41 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:34:41 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:34:47 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:34:47 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:34:47 UTC] PHP Notice:  Undefined property: stdClass::$feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 28
+[21-Jun-2017 20:34:47 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:34:47 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:34:59 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:34:59 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:34:59 UTC] PHP Notice:  Undefined property: stdClass::$feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 28
+[21-Jun-2017 20:34:59 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:34:59 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:35:33 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:35:33 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:35:33 UTC] PHP Notice:  Undefined property: stdClass::$feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 28
+[21-Jun-2017 20:35:33 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:35:33 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:36:50 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:36:50 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:36:50 UTC] PHP Notice:  Undefined property: stdClass::$feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 28
+[21-Jun-2017 20:36:50 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:36:50 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:37:27 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:37:27 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:37:27 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:37:27 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:37:39 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:37:50 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:37:50 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:37:50 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:37:50 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:37:58 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:38:18 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 7
+[21-Jun-2017 20:38:18 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 8
+[21-Jun-2017 20:38:18 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:38:18 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 40
+[21-Jun-2017 20:38:32 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-update.php on line 36
+[21-Jun-2017 20:44:41 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_list() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php:161) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-list.php on line 36
+[21-Jun-2017 20:44:43 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_list() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php:161) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-list.php on line 36
+[21-Jun-2017 20:45:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'get_feeds' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
+[21-Jun-2017 20:52:39 UTC] PHP Fatal error:  Cannot redeclare is_duplicate_feed() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php:46) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 12
+[21-Jun-2017 20:53:39 UTC] PHP Fatal error:  Cannot redeclare is_duplicate_feed() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php:46) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 12
+[21-Jun-2017 20:55:39 UTC] PHP Fatal error:  Cannot redeclare is_duplicate_feed() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php:46) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 12
+[21-Jun-2017 20:56:09 UTC] PHP Fatal error:  Cannot redeclare is_duplicate_feed() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php:46) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 12
+[21-Jun-2017 20:57:26 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 52
+[21-Jun-2017 20:57:26 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 15
+[21-Jun-2017 20:57:26 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 16
+[21-Jun-2017 20:58:25 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 52
+[21-Jun-2017 20:58:25 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 15
+[21-Jun-2017 20:58:25 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 16
+[21-Jun-2017 20:58:25 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 15
+[21-Jun-2017 20:58:25 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 16
+[21-Jun-2017 20:58:41 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 27
+[21-Jun-2017 20:58:41 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 27
+[21-Jun-2017 20:59:42 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 52
+[21-Jun-2017 20:59:42 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 15
+[21-Jun-2017 20:59:42 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 16
+[21-Jun-2017 21:01:42 UTC] PHP Warning:  include(rssfeeder/rssfeeder.php): failed to open stream: No such file or directory in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 3
+[21-Jun-2017 21:01:42 UTC] PHP Warning:  include(): Failed opening 'rssfeeder/rssfeeder.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 3
+[21-Jun-2017 21:03:42 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 5
+[21-Jun-2017 21:05:42 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 5
+[21-Jun-2017 21:06:37 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 5
+[21-Jun-2017 21:06:45 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 5
+[21-Jun-2017 21:07:01 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 5
+[21-Jun-2017 21:07:22 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 5
+[21-Jun-2017 21:07:53 UTC] PHP Warning:  require_once(C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder/feed-list.php): failed to open stream: No such file or directory in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\init.php on line 58
+[21-Jun-2017 21:07:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder/feed-list.php' (include_path='.;C:\php\pear') in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\init.php on line 58
+[21-Jun-2017 21:08:57 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:12:21 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:14:09 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:14:16 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:16:23 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:18:54 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:20:19 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:21:45 UTC] PHP Fatal error:  Cannot redeclare feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:22:33 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:24:01 UTC] PHP Fatal error:  Call to undefined function sinetiks_feeder_list() in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 163
+[21-Jun-2017 21:28:00 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:28:10 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_list() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-list.php:5) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-list.php on line 36
+[21-Jun-2017 21:28:52 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_list() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-list.php:5) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-list.php on line 36
+[21-Jun-2017 21:32:14 UTC] PHP Fatal error:  Cannot redeclare sinetiks_feeder_update() (previously declared in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php:4) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[21-Jun-2017 21:34:29 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:34:29 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:34:29 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:34:29 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:34:39 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:35:11 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:35:11 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:35:11 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:35:11 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:36:45 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 5
+[21-Jun-2017 21:36:45 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 21:37:15 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 17
+[21-Jun-2017 21:37:42 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:37:42 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:37:42 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:37:42 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:37:51 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:38:02 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:38:02 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:38:02 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:38:02 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:38:15 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:38:15 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:38:15 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:38:15 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:39:50 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 5
+[21-Jun-2017 21:39:50 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 21:40:21 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 17
+[21-Jun-2017 21:43:14 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 21:43:14 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 21:46:45 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 21:46:45 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 21:48:08 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 18
+[21-Jun-2017 21:48:24 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:48:24 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:48:24 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:48:24 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:48:35 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:51:06 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:51:06 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:51:06 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:51:06 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:51:20 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:51:44 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:51:44 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:51:44 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:51:44 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:51:53 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:53:51 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:53:51 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:53:51 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:53:51 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:54:00 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:55:49 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:55:49 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:55:49 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:55:49 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:56:08 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:56:08 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:56:08 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:56:08 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:56:24 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:56:24 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:56:24 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:56:24 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 21:57:04 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 21:57:04 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 21:57:04 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 21:57:04 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:01:21 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 22:01:21 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 22:01:45 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 18
+[21-Jun-2017 22:11:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'rss_form' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
+[21-Jun-2017 22:12:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'rss_form' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
+[21-Jun-2017 22:12:46 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 22:12:46 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 22:13:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
+[21-Jun-2017 22:13:41 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 22:13:41 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 22:14:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
+[21-Jun-2017 22:15:04 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:15:04 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:15:04 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:15:04 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:16:45 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:17:49 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 30
+[21-Jun-2017 22:18:32 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 20
+[21-Jun-2017 22:19:32 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:19:32 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:19:34 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:19:34 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 42
+[21-Jun-2017 22:19:51 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:19:51 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:19:54 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:19:54 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 42
+[21-Jun-2017 22:21:13 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 20
+[21-Jun-2017 22:21:53 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:21:53 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:21:53 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:21:53 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 42
+[21-Jun-2017 22:22:06 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:22:23 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:22:23 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:22:23 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:22:23 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 42
+[21-Jun-2017 22:22:46 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:26:28 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:26:28 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:26:28 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:26:28 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 42
+[21-Jun-2017 22:26:28 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 45
+[21-Jun-2017 22:26:49 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 38
+[21-Jun-2017 22:27:56 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:27:56 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:27:56 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:27:56 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:27:56 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:28:09 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:28:21 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:28:21 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:28:21 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:28:21 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:28:21 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:28:33 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:29:59 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:29:59 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:29:59 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:29:59 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:29:59 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:30:32 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:31:41 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:31:57 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:31:57 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:31:57 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:31:57 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:31:57 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:32:07 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:32:25 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:32:25 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:32:25 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:32:25 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:32:25 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:33:37 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:34:56 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:34:56 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:34:56 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:34:56 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:34:56 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:35:13 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:35:26 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:35:26 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:35:26 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:35:26 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:35:26 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:35:39 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:37:57 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 22:37:57 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 22:38:34 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 22:38:34 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 22:40:31 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:40:31 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:40:31 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:40:31 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:40:31 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:40:54 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:44:57 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:44:57 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:44:57 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:44:57 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 40
+[21-Jun-2017 22:44:57 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:45:07 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 36
+[21-Jun-2017 22:48:54 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 20
+[21-Jun-2017 22:49:28 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:49:28 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:49:28 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 37
+[21-Jun-2017 22:49:28 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 41
+[21-Jun-2017 22:49:28 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 44
+[21-Jun-2017 22:49:42 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 37
+[21-Jun-2017 22:51:45 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 22:51:46 UTC] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 22:52:21 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:52:21 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:52:21 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 22:52:21 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:52:21 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:52:21 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 46
+[21-Jun-2017 22:52:27 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:52:37 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:52:37 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:52:37 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 22:52:37 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:52:37 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:52:37 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 46
+[21-Jun-2017 22:52:45 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:52:55 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:52:55 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:52:55 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 22:52:55 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:52:55 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:52:55 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 46
+[21-Jun-2017 22:53:05 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:53:17 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:53:17 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:53:17 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 22:53:17 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:53:17 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:53:17 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 46
+[21-Jun-2017 22:53:32 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:54:32 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 22:54:32 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 22:54:32 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 22:54:32 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:54:32 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 22:54:32 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 46
+[21-Jun-2017 22:56:31 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 22:56:49 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 22:56:49 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 23:06:38 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 23:06:38 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 23:07:06 UTC] PHP Fatal error:  Call to undefined function is_duplicate_feed() in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 9
+[21-Jun-2017 23:07:48 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 23:07:48 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 23:08:00 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 18
+[21-Jun-2017 23:09:28 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[21-Jun-2017 23:09:28 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[21-Jun-2017 23:24:59 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[21-Jun-2017 23:24:59 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[21-Jun-2017 23:24:59 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21
+[21-Jun-2017 23:24:59 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39
+[21-Jun-2017 23:24:59 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 43
+[21-Jun-2017 23:24:59 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 46
+[21-Jun-2017 23:25:18 UTC] PHP Notice:  Undefined index: update in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 21

@@ -30,3 +30,396 @@ Stack trace:
 #3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
 #4 {main}
   thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 87
+[21-Jun-2017 20:25:05 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Reader\UnsupportedFeedFormatException' with message 'Unable to detect feed format' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php:141
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(95): PicoFeed\Reader\Reader->getParser('http://www.goog...', '<!doctype html>...', 'iso-8859-1')
+#1 [internal function]: get_posts_from_feed()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php(298): call_user_func_array('get_posts_from_...', Array)
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#5 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#6 {main}
+  thrown in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php on line 141
+[21-Jun-2017 20:27:46 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Reader\UnsupportedFeedFormatException' with message 'Unable to detect feed format' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php:141
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(95): PicoFeed\Reader\Reader->getParser('http://www.goog...', '<!doctype html>...', 'iso-8859-1')
+#1 [internal function]: get_posts_from_feed()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php(298): call_user_func_array('get_posts_from_...', Array)
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#5 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#6 {main}
+  thrown in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php on line 141
+[21-Jun-2017 20:30:31 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Reader\UnsupportedFeedFormatException' with message 'Unable to detect feed format' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php:141
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(95): PicoFeed\Reader\Reader->getParser('http://www.goog...', '<!doctype html>...', 'iso-8859-1')
+#1 [internal function]: get_posts_from_feed()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php(298): call_user_func_array('get_posts_from_...', Array)
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\plugin.php(515): WP_Hook->do_action(Array)
+#5 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#6 {main}
+  thrown in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php on line 141
+[21-Jun-2017 20:33:28 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(89): PicoFeed\Reader\Rea in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:36:43 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(89): PicoFeed\Reader\Rea in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:38:35 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(89): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:41:44 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(89): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:45:43 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(89): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:46:47 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(89): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:49:59 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(90): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:57:27 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 52
+[21-Jun-2017 20:57:27 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 15
+[21-Jun-2017 20:57:27 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 16
+[21-Jun-2017 20:57:29 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(90): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 20:59:44 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 52
+[21-Jun-2017 20:59:44 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 15
+[21-Jun-2017 20:59:44 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\sinetiks-feeds\feed-create.php on line 16
+[21-Jun-2017 20:59:46 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(90): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:23:24 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(93): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:25:18 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:27:03 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:29:09 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:32:05 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:34:32 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:37:18 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:38:52 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 21:39:53 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:43:13 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:45:23 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:48:10 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:50:54 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:53:05 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:55:45 UTC] PHP Fatal error:  Uncaught exception 'PicoFeed\Client\InvalidUrlException' with message 'Unable to resolve hostname' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php:376
+Stack trace:
+#0 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(281): PicoFeed\Client\Curl->handleError(6)
+#1 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php(297): PicoFeed\Client\Curl->executeContext()
+#2 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Client.php(219): PicoFeed\Client\Curl->doRequest()
+#3 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Reader\Reader.php(53): PicoFeed\Client\Client->execute('http://sdlkjfwe...')
+#4 C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php(94): PicoFeed in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\vendor\miniflux\picofeed\lib\PicoFeed\Client\Curl.php on line 376
+[21-Jun-2017 21:59:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 22:07:33 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Cookie.php on line 292
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:08:23 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:14:55 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:19:00 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 20
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:31:02 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:38:14 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 22:57:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:00:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:07 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:25 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:25 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:03:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:05:24 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:06:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:08:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:12:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:13:33 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:14:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:16:21 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:17:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:21:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\Requests\Transport\cURL.php on line 437
+[21-Jun-2017 23:36:26 UTC] PHP Strict Standards:  Only variables should be passed by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
+[21-Jun-2017 23:36:26 UTC] PHP Strict Standards:  Only variables should be assigned by reference in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\blankslate\functions.php on line 62
