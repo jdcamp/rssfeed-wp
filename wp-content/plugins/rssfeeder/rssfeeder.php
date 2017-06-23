@@ -10,7 +10,7 @@ require_once 'init.php';
 require_once 'feed-update.php';
 require_once 'feed-list.php';
 
-//add_action('admin_menu', 'add_feed_menu_page');
+add_action('admin_menu', 'add_feed_menu_page');
 //on install runs table_install()
 register_activation_hook(__FILE__, 'table_install');
 
@@ -47,7 +47,7 @@ function add_feed_url()
         )
     );
 }
-function is_unique_feed($url)
+function is_duplicate_feed($url)
 {
     global $wpdb;
     $result = $wpdb->get_results("SELECT * FROM wp_feeder where feed_url = '$url'");
