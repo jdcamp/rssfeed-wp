@@ -65,4 +65,49 @@ function rss_feeder_custom_column_content($column){
   echo $source;
 }
 add_action( 'manage_posts_custom_column', 'rss_feeder_custom_column_content' );
-?>
+
+
+function custom_meta_box_markup($object)
+{
+    wp_nonce_field(basename(__FILE__), "meta-box-nonce");
+
+    ?>
+        <div>
+            <label for="_source">Text</label>
+            <input name="_source" type="text" value="<?php echo get_post_meta($object->ID, "_source", true); ?>">
+        </div>
+        <?php
+}
+
+function add_custom_meta_box()
+{
+    add_meta_box("demo-meta-box", "Source", "custom_meta_box_markup", "post", "side", "high", $source);
+}
+
+add_action("add_meta_boxes", "add_custom_meta_box");
+
+function save_custom_meta_box($post_id, $post, $update)
+{
+    if (!isset($_POST["meta-box-nonce"]) || !wp_verify_nonce($_POST["meta-box-nonce"], basename(__FILE__)))
+        return $post_id;
+
+    if(!current_user_can("edit_post", $post_id))
+        return $post_id;
+
+    if(defined("DOING_AUTOSAVE") && DOING_AUTOSAVE)
+        return $post_id;
+
+    $slug = "post";
+    if($slug != $post->post_type)
+        return $post_id;
+
+    $meta_box_text_value = "";
+
+    if(isset($_POST["_source"]))
+    {
+        $meta_box_text_value = $_POST["_source"];
+    }
+    update_post_meta($post_id, "_source", $meta_box_text_value);
+
+}
+add_action("save_post", "save_custom_meta_box", 10, 3);

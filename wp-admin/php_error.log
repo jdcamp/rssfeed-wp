@@ -1903,3 +1903,17 @@ Stack trace:
 [26-Jun-2017 21:47:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
 [26-Jun-2017 21:47:17 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 152
 >>>>>>> origin/source
+[26-Jun-2017 21:59:40 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[26-Jun-2017 22:00:04 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[26-Jun-2017 22:05:28 UTC] PHP Fatal error:  Cannot redeclare is_valid_rss_url() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:89) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 121
+[26-Jun-2017 22:05:42 UTC] PHP Fatal error:  Cannot redeclare custom_meta_box_markup() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:171) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 80
+[26-Jun-2017 22:06:10 UTC] PHP Fatal error:  Cannot redeclare custom_meta_box_markup() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:171) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 80
+[26-Jun-2017 22:06:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 117
+[26-Jun-2017 22:06:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 117
+[26-Jun-2017 22:07:20 UTC] PHP Fatal error:  Cannot redeclare custom_meta_box_markup() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:171) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 80
+[26-Jun-2017 22:07:29 UTC] PHP Fatal error:  Cannot redeclare custom_meta_box_markup() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:171) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 80
+[26-Jun-2017 22:08:25 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[26-Jun-2017 22:08:30 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[26-Jun-2017 22:08:39 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[26-Jun-2017 22:08:46 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[26-Jun-2017 22:08:48 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
