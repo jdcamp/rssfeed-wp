@@ -50,7 +50,7 @@ function sinetiks_feeder_update() {
             <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
                 <table class='wp-list-table widefat fixed'>
                     <tr><th>Title</th><td><input type="text" name="title" value="<?php echo $title; ?>"/></td>
-                    <td><input type="text" name="feed_url" value="<?php echo $feed_url; ?>"/></td></tr>
+                    <td><input type="text" name="feed_url" value="<?php echo $feed_url; ?>ppp"/></td></tr>
                 </table>
                 <input type='submit' name="update" value='Save' class='button'> &nbsp;&nbsp;
                 <input type='submit' name="delete" value='Delete' class='button' onclick="return confirm('Sure you want to delete?')">

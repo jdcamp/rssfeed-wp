@@ -8,9 +8,8 @@ Author URI: http://sinetiks.com
 */
 // function to create the DB / Options / Defaults
 function ss_options_install() {
-
+    //instal DB
     global $wpdb;
-
     $table_name = $wpdb->prefix . "feeder";
     $charset_collate = $wpdb->get_charset_collate();
     $sql = "CREATE TABLE $table_name (
@@ -22,6 +21,8 @@ function ss_options_install() {
 
     require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
     dbDelta($sql);
+    //Register category
+    wp_create_category('External Source');
 }
 
 // run the install scripts upon plugin activation
