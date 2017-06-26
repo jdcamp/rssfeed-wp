@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .widefat {
   width: auto;
 }
@@ -17,3 +18,10 @@
 .ss-field-width {
   width: 75%
 }
+=======
+.widefat {width: 75%;}
+.ss-list-width {min-width:10%}
+.ss-form-width {width:100%}
+.ss-th-width {width:50px}
+.ss-field-width {width:75%}
+>>>>>>> origin/master
