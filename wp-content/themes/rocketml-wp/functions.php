@@ -49,4 +49,20 @@ if ( ! function_exists( 'post_pagination' ) ) :
         ) );
    }
 endif;
+
+function rss_feeder_modify_columns( $columns ) {
+  $new_columns = array(
+    'source' => __('Source', 'rss_feeder_textdomain'),
+  );
+  $filtered_columns = array_merge($columns, $new_columns);
+  return $filtered_columns;
+}
+
+add_filter('manage_posts_columns', 'rss_feeder_modify_columns');
+function rss_feeder_custom_column_content($column){
+  global $post;
+  $source = get_post_meta($post->ID, '_source', 1);
+  echo $source;
+}
+add_action( 'manage_posts_custom_column', 'rss_feeder_custom_column_content' );
 ?>

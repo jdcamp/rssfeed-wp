@@ -1622,3 +1622,65 @@ Stack trace:
 [23-Jun-2017 00:06:30 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 151
 [23-Jun-2017 00:06:33 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 151
 >>>>>>> origin/master
+[26-Jun-2017 21:27:34 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 42
+[26-Jun-2017 21:27:35 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 42
+[26-Jun-2017 21:31:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:31:43 UTC] PHP Fatal error:  Cannot redeclare rss_feeder_event_modify_columns() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php:64) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:31:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:34:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:34:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:37:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Warning:  A non-numeric value encountered in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 64
+[26-Jun-2017 21:41:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 65
+[26-Jun-2017 21:41:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:42:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:42:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:42:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php:298) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post.php on line 197
+[26-Jun-2017 21:42:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php:298) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/pluggable.php on line 1210
+[26-Jun-2017 21:42:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:42:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:42:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:42:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:42:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php:298) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post.php on line 197
+[26-Jun-2017 21:42:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php:298) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/pluggable.php on line 1210
+[26-Jun-2017 21:43:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:45:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[26-Jun-2017 21:45:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
