@@ -481,6 +481,348 @@
 [22-Jun-2017 19:17:46 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
 [22-Jun-2017 19:17:46 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
 [22-Jun-2017 19:18:58 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+<<<<<<< HEAD
+[22-Jun-2017 20:22:05 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[22-Jun-2017 20:22:05 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[22-Jun-2017 20:22:05 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[22-Jun-2017 20:22:05 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 39
+[22-Jun-2017 20:22:05 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 43
+[22-Jun-2017 20:22:05 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 46
+[22-Jun-2017 21:29:16 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[22-Jun-2017 21:29:16 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[22-Jun-2017 21:29:16 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[22-Jun-2017 21:29:16 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 39
+[22-Jun-2017 21:29:16 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 43
+[22-Jun-2017 21:29:16 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 46
+[22-Jun-2017 21:29:21 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[22-Jun-2017 21:29:21 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[22-Jun-2017 21:29:21 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[22-Jun-2017 21:29:52 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[22-Jun-2017 21:54:52 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[22-Jun-2017 21:54:52 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[22-Jun-2017 21:54:52 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[22-Jun-2017 21:54:52 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 39
+[22-Jun-2017 21:54:52 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 43
+[22-Jun-2017 21:54:52 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 46
+[22-Jun-2017 23:03:41 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[22-Jun-2017 23:03:41 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[22-Jun-2017 23:03:41 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[22-Jun-2017 23:05:11 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[22-Jun-2017 23:05:11 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[22-Jun-2017 23:05:11 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[22-Jun-2017 23:05:19 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[22-Jun-2017 23:08:43 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[22-Jun-2017 23:20:22 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[22-Jun-2017 23:20:22 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[22-Jun-2017 23:20:22 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[22-Jun-2017 23:20:22 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 39
+[22-Jun-2017 23:20:22 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 43
+[22-Jun-2017 23:20:22 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 46
+[22-Jun-2017 23:20:29 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[22-Jun-2017 23:20:36 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[22-Jun-2017 23:20:36 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[22-Jun-2017 23:20:36 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[22-Jun-2017 23:21:01 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[22-Jun-2017 23:21:58 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[22-Jun-2017 23:21:58 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[22-Jun-2017 23:21:58 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[22-Jun-2017 23:28:57 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[22-Jun-2017 23:28:57 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[22-Jun-2017 23:28:57 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[22-Jun-2017 23:32:44 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[23-Jun-2017 17:31:07 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[23-Jun-2017 17:31:07 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[23-Jun-2017 17:31:07 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[23-Jun-2017 17:31:07 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 39
+[23-Jun-2017 17:31:07 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 43
+[23-Jun-2017 17:31:07 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 46
+[23-Jun-2017 17:31:11 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[23-Jun-2017 17:31:15 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[23-Jun-2017 17:31:15 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[23-Jun-2017 17:31:15 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[23-Jun-2017 17:31:15 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 39
+[23-Jun-2017 17:31:15 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 43
+[23-Jun-2017 17:31:15 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 46
+[23-Jun-2017 17:33:06 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[23-Jun-2017 18:01:53 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/includes/translation-install.php on line 65
+[23-Jun-2017 21:40:51 UTC] WordPress database error Unknown column '$source' in 'where clause' for query SELECT *
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id=wp_post.id WHERE wp_postmeta.meta_key = $source ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:40:51 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:40:55 UTC] WordPress database error Unknown column '$source' in 'where clause' for query SELECT *
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id=wp_post.id WHERE wp_postmeta.meta_key = $source ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:40:55 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:41:12 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 3 for query SELECT *
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id=wp_post.id WHERE wp_postmeta.meta_key = {$source} ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:41:12 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:41:34 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{$source}}' at line 3 for query SELECT *
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id=wp_post.id WHERE wp_postmeta.meta_key = {{$source}} ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:41:34 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:41:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{source}}' at line 3 for query SELECT *
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id=wp_post.id WHERE wp_postmeta.meta_key = {{source}} ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:41:54 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:42:07 UTC] PHP Parse error:  syntax error, unexpected '{' in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 9
+[23-Jun-2017 21:45:11 UTC] WordPress database error Unknown column 'wp_post.id' in 'on clause' for query SELECT wp_posts.* , wp_postmeta.post_id
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id = wp_post.id; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:45:11 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:45:26 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:48:09 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT wp_posts.* , wp_postmeta.post_id
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id = wp_posts.id
+    INNER JOIN wp_postmeta ON wp_postmeta.meta_key = _external; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:48:09 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:49:14 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT wp_posts.* , wp_postmeta.post_id, wp_postmeta.meta_key
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id = wp_posts.id
+    INNER JOIN wp_postmeta ON wp_postmeta.meta_key = _external; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:49:14 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:49:46 UTC] WordPress database error Not unique table/alias: 'wp_postmeta' for query SELECT wp_posts.* , wp_postmeta.*
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id = wp_posts.id
+    INNER JOIN wp_postmeta ON wp_postmeta.meta_key = _external; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:49:46 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:51:50 UTC] WordPress database error Unknown column '_external' in 'where clause' for query SELECT wp_posts.* , wp_postmeta.*
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id = wp_posts.id WHERE wp_postmeta.meta_key = _external; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 21:51:50 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:54:31 UTC] PHP Fatal error:  Cannot redeclare get_by_source() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:2) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 95
+[23-Jun-2017 21:56:49 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE wp_postmeta.meta_value ="external"' at line 3 for query SELECT wp_posts.* , wp_postmeta.*
+    FROM wp_posts
+    INNER JOIN wp_postmeta ON wp_postmeta.post_id = wp_posts.id WHERE wp_postmeta.meta_key = "_source" AND WHERE wp_postmeta.meta_value ="external" ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 22:05:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE w' at line 3 for query SELECT wp_posts.*
+    FROM wp_posts
+    OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="external" ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 22:06:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE w' at line 3 for query SELECT wp_posts.*
+    FROM wp_posts
+    OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="external" ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 22:07:16 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE w' at line 3 for query SELECT wp_posts.*
+    FROM wp_posts
+    FULL OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="external" ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 22:07:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE w' at line 3 for query SELECT wp_posts.*
+    FROM wp_posts
+    FULL OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="external" ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 22:07:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE w' at line 3 for query SELECT wp_posts.*
+    FROM wp_posts
+    FULL OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="external" ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 22:08:28 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE w' at line 3 for query SELECT wp_posts.*
+    FROM wp_posts
+    FULL OUTER JOIN wp_postmeta 
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="external" ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_source
+[23-Jun-2017 22:10:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:13) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post.php on line 197
+[23-Jun-2017 22:10:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:13) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/pluggable.php on line 1210
+[23-Jun-2017 22:19:37 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 25
+[23-Jun-2017 22:19:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="")' at line 6 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS
+        (wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="") ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:19:37 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 25
+[23-Jun-2017 22:19:37 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="")' at line 6 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS
+        (wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="") ; made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:19:39 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 25
+[23-Jun-2017 22:19:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="")' at line 6 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS
+        (wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="") ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:19:56 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 25
+[23-Jun-2017 22:19:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="")' at line 6 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS
+        (wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="") ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:20:11 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 25
+[23-Jun-2017 22:20:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="")' at line 6 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS
+        (wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="") ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:20:26 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 25
+[23-Jun-2017 22:20:26 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="")' at line 6 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS
+        (wp_postmeta.meta_key = "_source"
+      AND  wp_postmeta.meta_value ="") ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:20:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:20:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:20:59 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:21:14 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:21:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:21:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE  NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:22:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:22:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_postmeta.meta_key = "_source"' at line 5 for query SELECT wp_posts.*
+    FROM wp_posts
+    JOIN wp_postmeta
+      ON wp_postmeta.post_id = wp_posts.id
+      WHERE NOT EXISTS wp_postmeta.meta_key = "_source"
+        ; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/rssfeeder/init.php'), require_once('/plugins/rssfeeder/feed-list.php'), get_by_original
+[23-Jun-2017 22:28:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:30) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post.php on line 197
+[23-Jun-2017 22:28:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:30) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/pluggable.php on line 1210
+[23-Jun-2017 22:31:32 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:31:32 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:32:35 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:32:35 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:33:34 UTC] PHP Notice:  Array to string conversion in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:33:34 UTC] PHP Notice:  Array to string conversion in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:33:35 UTC] PHP Notice:  Array to string conversion in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:33:35 UTC] PHP Notice:  Array to string conversion in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:35:53 UTC] PHP Parse error:  syntax error, unexpected '" "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 32
+[23-Jun-2017 22:36:55 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php:31
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php(37): get_by_original('external')
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php(60): require_once('/Users/jakecamp...')
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-settings.php(303): include_once('/Users/jakecamp...')
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-config.php(91): require_once('/Users/jakecamp...')
+#4 /Users/jakecampa/Desktop/rssfeed-wp/wp-load.php(37): require_once('/Users/jakecamp...')
+#5 /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/admin.php(31): require_once('/Users/jakecamp...')
+#6 /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post-new.php(10): require_once('/Users/jakecamp...')
+#7 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[23-Jun-2017 22:37:18 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[26-Jun-2017 17:33:09 UTC] PHP Notice:  Undefined variable: post_ID in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:33:09 UTC] PHP Notice:  Undefined variable: post in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:33:09 UTC] PHP Notice:  Undefined variable: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:33:56 UTC] PHP Notice:  Undefined variable: post_ID in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:33:56 UTC] PHP Notice:  Undefined variable: post in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:33:56 UTC] PHP Notice:  Undefined variable: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:35:09 UTC] PHP Notice:  Undefined variable: post_ID in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:35:09 UTC] PHP Notice:  Undefined variable: post in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:35:09 UTC] PHP Notice:  Undefined variable: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:35:51 UTC] PHP Notice:  Undefined variable: post_ID in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:35:51 UTC] PHP Notice:  Undefined variable: post in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:35:51 UTC] PHP Notice:  Undefined variable: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:37:04 UTC] PHP Notice:  Undefined variable: post_ID in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:37:04 UTC] PHP Notice:  Undefined variable: post in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:37:04 UTC] PHP Notice:  Undefined variable: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 198
+[26-Jun-2017 17:38:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:38:50 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:38:54 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:38:59 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:38:59 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:38:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:202) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post.php on line 197
+[26-Jun-2017 17:38:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:202) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/pluggable.php on line 1210
+[26-Jun-2017 17:40:01 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:40:04 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:40:06 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:40:06 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:40:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:202) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post.php on line 197
+[26-Jun-2017 17:40:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:202) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/pluggable.php on line 1210
+[26-Jun-2017 17:48:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 202
+[26-Jun-2017 17:49:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:202) in /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/post.php on line 197
+[26-Jun-2017 17:49:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:202) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/pluggable.php on line 1210
+[26-Jun-2017 17:54:59 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[26-Jun-2017 17:54:59 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[26-Jun-2017 17:54:59 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[26-Jun-2017 17:55:44 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[26-Jun-2017 17:55:44 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[26-Jun-2017 17:55:44 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[26-Jun-2017 17:56:39 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[26-Jun-2017 20:16:34 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[26-Jun-2017 20:16:34 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[26-Jun-2017 20:16:34 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[26-Jun-2017 20:16:45 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[26-Jun-2017 20:18:53 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[26-Jun-2017 20:18:53 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[26-Jun-2017 20:18:53 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[26-Jun-2017 20:18:53 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 39
+[26-Jun-2017 20:18:53 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 43
+[26-Jun-2017 20:18:53 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 46
+[26-Jun-2017 20:19:02 UTC] PHP Notice:  Undefined index: update in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 21
+[26-Jun-2017 20:19:07 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[26-Jun-2017 20:19:07 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[26-Jun-2017 20:19:07 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[26-Jun-2017 20:19:31 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+=======
 >>>>>>> d8f52b200b1f828064c289f34d0d0aaecca9622d
 [22-Jun-2017 20:29:01 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
 [22-Jun-2017 20:29:01 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
@@ -1279,6 +1621,7 @@
 [23-Jun-2017 00:06:14 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 151
 [23-Jun-2017 00:06:30 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 151
 [23-Jun-2017 00:06:33 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 151
+<<<<<<< HEAD
 [23-Jun-2017 19:42:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
 [23-Jun-2017 19:42:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
 [23-Jun-2017 19:42:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
@@ -1504,3 +1847,6 @@
 [26-Jun-2017 21:55:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
 [26-Jun-2017 21:56:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_feed_menu_page' not found or invalid function name in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\class-wp-hook.php on line 298
 [26-Jun-2017 21:56:30 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 152
+=======
+>>>>>>> origin/master
+>>>>>>> bd7ab89390688b4a29faa3b88fc670b92c5a926e
