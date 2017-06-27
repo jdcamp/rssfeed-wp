@@ -26,7 +26,7 @@
      'meta_query' => array(
        array(
          'key' => '_source',
-         'value' => 'external'
+         'value' => 'medium.com'
        )
        )
  );

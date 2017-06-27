@@ -46,15 +46,6 @@ function add_feed_url()
 }
 
 function is_unique_feed($url)
-    {$wpdb->insert(
-        $wpdb->prefix . 'feeder',
-        array(
-            'title' => $title,
-            'feed_url' => $url,
-        )
-    );
-}
-function is_duplicate_feed($url)
 {
     global $wpdb;
     $result = $wpdb->get_results("SELECT * FROM wp_feeder where feed_url = '$url'");
@@ -73,19 +64,21 @@ function add_rss_post_page()
 
 function check_key_words($sentence, $keywords)
 {
-    //  error_log($keywords, 0);
-   if (empty((array)$keywords)) {
+   error_log( 'keywords-> ' . $keywords, 0);
+   if (empty((array)$keywords) || $keywords == NULL) {
+     error_log('empty -> true', 0);
        return true;
    }
     foreach ((array) $keywords as $keyword) {
         $keyword = trim($keyword);
         if (stripos($sentence, $keyword) === false) {
             return false;
+            error_log('no keywords found -> false', 0);
         }
     }
+    error_log('keywords found -> true', 0);
     return true;
 }
-
 
 function is_valid_rss_url($url)
 {
@@ -115,6 +108,7 @@ function my_add_custom_fields($post_id, $source) {
 function get_posts_from_feed()
 {
     global $wpdb;
+    error_log("Get Post Fired", 0);
     $result = $wpdb->get_results("SELECT * FROM wp_feeder");
     foreach ($result as $queried_feed) {
         $my_feed = $queried_feed->feed_url;
@@ -133,11 +127,14 @@ function get_posts_from_feed()
             $title = $item->getTitle();
             if (!get_page_by_title($title, 'OBJECT', 'post')) {
                 $body = $item->getContent();
+                error_log('title: ' . get_page_by_title($title, 'OBJECT', 'post'), 0);
                 if (check_key_words($body, $keywords) || check_key_words($title, $keywords)) {
                     $author = $item->getAuthor();
                     $url = $item->getUrl();
                     $body = $item->getContent();
-                    $body = $body . '<br /><a href="' . $url . '"> Read Original Article Here</a>';
+                    $tags = implode(', ',$item->getCategories());
+                    $namespaces = implode(', ', $item->getNamespaces());
+                    $body = $body . '<br><a href="' . $url . '"> Read Original Article Here</a><br>';
                     $date = $item->getPublishedDate();
                     $date = date_format($date, 'Y-m-d H:i:s');
                     $id = $item->getId();
@@ -154,56 +151,16 @@ function get_posts_from_feed()
                      'post_category' => array($category->term_id),
                      'meta_input' => array(
                        '_source' => $source
-                     )
+                     ),
                   );
-                  wp_insert_post($args);
-                    // if ($post_id = wp_insert_post($args)) {
-                    //     // add_post_meta($post_id, '_source', $source);
-                    // // add_post_meta($post_id, '_source', 'external' );
-                    // }
+                    if ($post_id = wp_insert_post($args)) {
+                      wp_set_post_tags( $post_id, $tags, true );
+                    }
                 }
             }
         }
     }
 }
-
-
-
-
-// function rss_form()
-// {
-//     if (isset($_POST['url'])) {
-//         error_reporting(-1);
-//         date_default_timezone_set('America/Los_Angeles');
-//         require 'vendor/autoload.php';
-//
-//         $my_feed = $_POST['url'];
-//         if (is_valid_rss_url($my_feed) && is_duplicate_feed($my_feed)) {
-//             sinetiks_feeder_create();
-//             echo $my_feed . " added";
-//         } else {
-//             echo "Invalid URL";
-//         }
-//     }
-//     echo <<<EOD
-//     <form class="" action="" method="post">
-//         <label for="Title">Feed Title</label>
-//         <input type="text" name="title" value="" required=true><br>
-//         <label for="Url">Url Feed</label>
-//         <input type="text" name="url" value="" required=true><br>
-//         <input type="submit" name="" value="Submit">
-//     </form>
-// EOD;
-// }
-
-// function get_feeds()
-// {
-//     global $wpdb;
-//     $result = $wpdb->get_results("SELECT * FROM wp_feeder");
-//     foreach ($result as $print) {
-//         echo '<p>'. $print->title. ":  " . $print->feed_url . '</p>';
-//     }
-// }
 
 add_filter('cron_schedules', 'isa_add_every_three_minutes');
 function isa_add_every_three_minutes($schedules)
