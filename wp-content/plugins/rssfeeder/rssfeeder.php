@@ -135,48 +135,47 @@ function get_posts_from_feed( )
         $items    = $feed->getItems();
         foreach ( $items as $item ) {
             $title = $item->getTitle();
-            $id    = $item->getId();
-            //tests checks if guid is in use
-            if ( is_guid_unique( $id ) ) {
+
+            $id = $item->getId();
+            $author = $item->getAuthor();
+
+            if (!get_page_by_title($title, 'OBJECT', 'post')) {
                 $body = $item->getContent();
-                //checks if content and tilte have the keywords
-                if ( check_key_words( $title . $body, $keywords ) ) {
-                    $author     = $item->getAuthor();
-                    $url        = $item->getUrl();
-                    $body       = $item->getContent();
-                    $tags       = implode( ', ', $item->getCategories() );
-                    //formats the post and adds link to original sourcec at the end of the post
-                    $body       = wp_trim_words($body, 128) .
-                   '<br>
-                    <p class="feed-link">
-                      <a href="' . $url . '">
-                        <button class="btn btn-single">Read Original Article Here</button>
-                        </a>
-                    </p>
-                    <br>';
-                    $date       = $item->getPublishedDate();
-                    $date       = date_format( $date, 'Y-m-d H:i:s' );
-                    $category   = get_category_by_slug( 'External Source' );
-                    $trimmed    = parse_url( $url );
-                    //gets the top level domain to add as source metadata
-                    $source     = $trimmed[ 'host' ];
-                    $args       = array(
-                         'post_author' => $author,
-                        'post_content' => $body,
-                        'post_title' => $title,
-                        'post_status' => "publish",
-                        'post_type' => "post",
-                        'guid' => $id,
-                        'post_category' => array(
-                             $category->term_id
-                        ),
-                        'meta_input' => array(
-                             '_source' => $source
-                        )
-                    );
-                    if ( $post_id = wp_insert_post( $args ) ) {
-                      //adds tags based on the rss category tags
-                        wp_set_post_tags( $post_id, $tags, true );
+                error_log('title: ' . get_page_by_title($title, 'OBJECT', 'post'), 0);
+                if (check_key_words($body, $keywords) || check_key_words($title, $keywords)) {
+                    $author = $item->getAuthor();
+                    $user_id = get_user_by( 'login', $author );
+                    if ( !$user_id ) {
+                    	$random_password = wp_generate_password( $length=12, $include_standard_special_chars=false );
+                    	$user_id = wp_create_user( $author, $random_password);
+                    } else {
+                    	$user_id = get_user_by('login', $author)->get('id');
+                    }
+                    $url = $item->getUrl();
+                    $body = $item->getContent();
+                    $tags = implode(', ',$item->getCategories());
+                    $namespaces = implode(', ', $item->getNamespaces());
+                    $body = $body . '<br><a href="' . $url . '"> Read Original Article Here</a><br>';
+                    $date = $item->getPublishedDate();
+                    $date = date_format($date, 'Y-m-d H:i:s');
+                    $category = get_category_by_slug('External Source');
+                    $trimmed = parse_url($url);
+                    $source = str_replace('www.', "", $trimmed['host']);
+                    $args = array(
+                     'post_author' => $user_id,
+                     'post_content' => $body,
+                     'post_title' => $title,
+                     'post_status' => "publish",
+                     'post_type' => "post",
+                     'guid' => $author->getID,
+                     'post_category' => array($category->term_id),
+                     'meta_input' => array(
+                       '_source' => $source,
+                       '_post_author' => $author
+                     ),
+                  );
+                    if ($post_id = wp_insert_post($args)) {
+                      wp_set_post_tags( $post_id, $tags, true );
                     }
                 }
             }
@@ -186,6 +185,7 @@ function get_posts_from_feed( )
 
 add_filter( 'cron_schedules', 'isa_add_every_three_minutes' );
 function isa_add_every_three_minutes( $schedules )
+
 {
     $schedules[ 'every_three_minutes' ] = array(
          'interval' => 180,

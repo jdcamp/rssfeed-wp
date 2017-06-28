@@ -66,6 +66,39 @@ function rss_feeder_custom_column_content($column){
 }
 add_action( 'manage_posts_custom_column', 'rss_feeder_custom_column_content' );
 
+function sortable_columns() {
+
+  return array(
+	'title' => 'title',
+    'author' => 'author',
+	'source' => 'source',
+	'date' => 'date',
+	'categories' => 'categories',
+	'tags' => 'tags',
+  );
+}
+
+add_filter( "manage_edit-post_sortable_columns", "sortable_columns" );
+
+add_action( 'pre_get_posts', 'manage_wp_posts_pre_get_posts', 1 );
+function manage_wp_posts_pre_get_posts( $query ) {
+   if ( $query->is_main_query() && ( $orderby = $query->get( 'orderby' ) ) ) {
+
+	   switch( $orderby ) {
+		   case 'source':
+		   $query->set( 'meta_key', '_source' );
+		   $query->set( 'orderby', 'meta_value' );
+
+		   break;
+
+		   case 'author':
+		   $query->set( 'meta_key', '_post_author' );
+		   $query->set( 'orderby', 'meta_value');
+
+		   break;
+	   }
+   }
+}
 
 function custom_meta_box_markup($object)
 {

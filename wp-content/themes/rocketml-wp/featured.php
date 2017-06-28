@@ -14,6 +14,7 @@
  ?>
  <!-- Header -->
  <?php get_header('search');?>
+
  <?php wp_enqueue_style('blog', get_template_directory_uri() . '/css/blog.css');?>
 <div class="container">
   <div class="col-sm-9">
