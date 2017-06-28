@@ -79,10 +79,6 @@ function sinetiks_feeder_update() {
         <?php } else { ?>
             <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
                 <table class='wp-list-table widefat fixed'>
-<<<<<<< HEAD
-                    <tr><th>Title</th><td><input type="text" name="title" value="<?php echo $title; ?>"/></td>
-                    <td><input type="text" name="feed_url" value="<?php echo $feed_url; ?>ppp"/></td></tr>
-=======
                     <tr><th class="ss-th-width">Title</th>
                         <td><input type="text" name="title" value="<?php echo $title; ?>"/>
                         <input type='submit' name="update_title" value='Update Title' class='button'> &nbsp;&nbsp;</td>
@@ -103,7 +99,6 @@ function sinetiks_feeder_update() {
                         <td><input type="text" name="keywords" value="<?php echo $keywords; ?>"/>
                         <input type='submit' name="update_keywords" value='Update Keywords' class='button'> &nbsp;&nbsp;</td>
                     </tr>
->>>>>>> origin/master
                 </table>
                 <br><br>
                 <input type='submit' name="delete" value='Delete Feed' class='button' onclick="return confirm('Sure you want to delete?')">

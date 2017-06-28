@@ -12,14 +12,9 @@
     require 'vendor/autoload.php';
 
     use PicoFeed\Reader\Reader;
-
-
-
       $my_feeds = [$_POST['url']];
       for ($i = 0; $i < 1; $i++) {
         try {
-
-
         $reader = new Reader;
         $resource = $reader->download($my_feeds[$i]);
 
