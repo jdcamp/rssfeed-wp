@@ -2052,3 +2052,43 @@ Stack trace:
 [27-Jun-2017 19:47:12 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
 [27-Jun-2017 19:47:23 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
 [27-Jun-2017 19:47:31 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 20:23:28 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 20:23:56 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:16:12 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:16:22 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:16:55 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:17:20 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:17:30 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:16:13 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[27-Jun-2017 23:16:13 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[27-Jun-2017 23:16:13 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[27-Jun-2017 23:16:27 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[27-Jun-2017 23:16:36 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[27-Jun-2017 23:16:36 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 9
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 63
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 67
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 70
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 73
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 76
+[27-Jun-2017 23:16:45 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[27-Jun-2017 23:16:45 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 63
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 67
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: update_title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 70
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 73
+[27-Jun-2017 23:18:09 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:18:55 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:25:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:29:25 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 17:56:03 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/functions.php on line 4139
+[28-Jun-2017 17:56:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'query' at line 1 for query query made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_original_post
+[28-Jun-2017 17:56:03 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 17:58:05 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/functions.php on line 4139
+[28-Jun-2017 17:58:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'query' at line 1 for query query made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_original_post
+[28-Jun-2017 17:58:05 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 17:58:11 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/functions.php on line 4139
+[28-Jun-2017 17:58:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'query' at line 1 for query query made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_original_post
+[28-Jun-2017 17:58:11 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 18:01:24 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 18:01:59 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84

@@ -1,42 +1,46 @@
 <!-- blog page welcome section -->
-<?php
+<div class="row">
+   <div class="col-sm-3 post-meta">
+      <?php
+         $date = get_the_date();
+         $classes = implode(get_post_class(), ' ');
+         ?>
+      <h4><?php echo $date; ?></h4>
+      <p>Posted by: <?php echo get_the_author(); ?></p>
+      <p>Source: <?php echo get_post_meta(get_the_ID(), '_source', 1); ?></p>
+      <?php
+         edit_post_link(
+           sprintf(
+             /* translators: %s: Name of current post */
+             __('Edit<span class="screen-reader-text"> "%s"</span>', 'rocketml-wp'),
+             get_the_title()
+           ),
+           '<span class="edit-link">',
+           '</span>'
+         );
+         ?>
+   </div>
+   <div class="col-sm-9">
+      <div id="post-<?php echo get_the_ID(); ?>" class="<?php echo $classes ;?>">
+         <header class="entry-header">
+            <?php
+               echo the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>');
+               ?>
+         </header>
+         <div class="entry-content">
+            <?php
+               the_excerpt();
 
-         echo '<div class="row">';
-        echo '<div class="col-sm-3 post-meta">';
-        $date = get_the_date();
-        printf("<h4>".$date."</h4>");
-        print("<p>Posted by</p><p>" . get_the_author()."</p>");
-
-    edit_post_link(
-      sprintf(
-        /* translators: %s: Name of current post */
-        __('Edit<span class="screen-reader-text"> "%s"</span>', 'rocketml-wp'),
-        get_the_title()
-      ),
-      '<span class="edit-link">',
-      '</span>'
-    );
-  echo '</div>';
-echo '<div class="col-sm-9">';
-
-$classes = implode(get_post_class(), ' ');
-echo ('<div id="post-"'. ' class="' . $classes .'">');
-	echo '<header class="entry-header">';
-
-		echo the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>');
-	echo '</header>';
-
-	echo '<div class="entry-content">';
-            /* translators: %s: Name of current post */
-            the_excerpt();
-
-            wp_link_pages(array(
-                'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages:', 'rocketml-wp') . '</span>',
-                'after'       => '</div>',
-                'link_before' => '<span>',
-                'link_after'  => '</span>',
-                'pagelink'    => '<span class="screen-reader-text">' . __('Page', 'rocketml-wp') . ' </span>%',
-                'separator'   => '<span class="screen-reader-text">, </span>',
-            ));
-
- echo	'</div></div></div></div>'; ?>
+               wp_link_pages(array(
+                   'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages:', 'rocketml-wp') . '</span>',
+                   'after'       => '</div>',
+                   'link_before' => '<span>',
+                   'link_after'  => '</span>',
+                   'pagelink'    => '<span class="screen-reader-text">' . __('Page', 'rocketml-wp') . ' </span>%',
+                   'separator'   => '<span class="screen-reader-text">, </span>',
+               ));
+               ?>
+         </div>
+      </div>
+   </div>
+</div>

@@ -41,9 +41,7 @@
 
 <!--hero section-->
 
-<header class="hero-section" <?php
-  echo " id='blog-home'";
-?>>
+<header class="hero-section" id='blog-home'>
 
   <!--navigation-->
 <?php get_template_part('template-parts/content', 'navbar'); ?>

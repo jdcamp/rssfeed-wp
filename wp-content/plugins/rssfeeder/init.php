@@ -1,11 +1,4 @@
 <?php
-/*
-Plugin Name: Feeds
-Description:
-Version: 1
-Author: sinetiks.com
-Author URI: http://sinetiks.com
-*/
 // function to create the DB / Options / Defaults
 function ss_options_install() {
     //instal DB
@@ -60,3 +53,32 @@ define('ROOTDIR', plugin_dir_path(__FILE__));
 require_once(ROOTDIR . 'feed-list.php');
 require_once(ROOTDIR . 'feed-create.php');
 require_once(ROOTDIR . 'feed-update.php');
+
+register_activation_hook( __FILE__, 'table_install' );
+//Installs wp_feeder database
+function table_install( )
+{
+    global $wpdb;
+
+    $table_name = $wpdb->prefix . 'feeder';
+
+    $charset_collate = $wpdb->get_charset_collate();
+
+    $sql = "CREATE TABLE $table_name (
+        id int NOT NULL AUTO_INCREMENT,
+        title tinytext NOT NULL,
+        feed_url varchar(255) DEFAULT '' NOT NULL,
+        PRIMARY KEY  (id)
+    ) $charset_collate;";
+
+    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+    dbDelta( $sql );
+}
+
+register_uninstall_hook( __FILE__, 'uninstall_feeder' );
+function uninstall_feeder()
+{
+  global $wpdb;
+  $table = $wpdb->prefix . 'feeder';
+  $wpdb->query("DROP TABLE '$table';");
+}
