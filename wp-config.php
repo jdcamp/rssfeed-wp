@@ -79,7 +79,7 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', true);
 @ini_set( 'log_errors', 'On' );
-@ini_set( 'display_errors', 'Off' );
+@ini_set( 'display_errors', 'On' );
 @ini_set( 'error_log', 'php_error.log' );
 /* That's all, stop editing! Happy blogging. */
 

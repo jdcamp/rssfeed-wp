@@ -5017,3 +5017,135 @@ Stack trace:
 [28-Jun-2017 19:47:18 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
 [28-Jun-2017 19:47:18 UTC] PHP Notice:  mysqli_real_connect(): send of 107 bytes failed with errno=32 Broken pipe in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
 [28-Jun-2017 19:47:18 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:02:18 UTC] PHP Fatal error:  Cannot redeclare ss_options_install() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php:5) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php on line 19
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Notice:  mysqli_real_connect(): send of 107 bytes failed with errno=32 Broken pipe in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Notice:  mysqli_real_connect(): send of 107 bytes failed with errno=32 Broken pipe in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Notice:  mysqli_real_connect(): send of 107 bytes failed with errno=32 Broken pipe in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Notice:  mysqli_real_connect(): send of 107 bytes failed with errno=32 Broken pipe in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Notice:  mysqli_real_connect(): send of 107 bytes failed with errno=32 Broken pipe in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Notice:  mysqli_real_connect(): send of 107 bytes failed with errno=32 Broken pipe in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:18:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1538
+[28-Jun-2017 21:20:45 UTC] Get Post Fired
+[28-Jun-2017 21:20:45 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:20:45 UTC] id unique
+[28-Jun-2017 21:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_trim() in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:145
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): get_posts_from_feed()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#4 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 145
+[28-Jun-2017 21:21:53 UTC] Get Post Fired
+[28-Jun-2017 21:21:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:21:53 UTC] id unique
+[28-Jun-2017 21:21:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_trim() in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:145
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): get_posts_from_feed()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#4 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 145
+[28-Jun-2017 21:22:01 UTC] Get Post Fired
+[28-Jun-2017 21:22:01 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:01 UTC] id unique
+[28-Jun-2017 21:22:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_trim() in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:145
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): get_posts_from_feed()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-cron.php(117): do_action_ref_array('isa_add_every_t...', Array)
+#4 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 145
+[28-Jun-2017 21:22:53 UTC] Get Post Fired
+[28-Jun-2017 21:22:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:53 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:22:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:22:54 UTC] id unique
+[28-Jun-2017 21:23:52 UTC] Get Post Fired
+[28-Jun-2017 21:23:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:52 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:23:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:23:53 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] Get Post Fired
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:38:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:38:09 UTC] id unique
+[28-Jun-2017 21:56:28 UTC] Get Post Fired
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique
+[28-Jun-2017 21:56:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_posts' WHERE guid = "0" LIMIT 1' at line 1 for query SELECT COUNT(*) FROM 'wp_posts' WHERE guid = "0" LIMIT 1; made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, get_posts_from_feed, is_guid_unique
+[28-Jun-2017 21:56:29 UTC] id unique

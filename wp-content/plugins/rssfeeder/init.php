@@ -1,30 +1,15 @@
 <?php
+/*
+Plugin Name: Feeds
+Description:
+Version: 1
+Author: sinetiks.com
+Author URI: http://sinetiks.com
+*/
 // function to create the DB / Options / Defaults
-function ss_options_install() {
-    //instal DB
-    global $wpdb;
-    $table_name = $wpdb->prefix . "feeder";
-    $charset_collate = $wpdb->get_charset_collate();
-    $sql = "CREATE TABLE $table_name (
-            title tinytext NOT NULL,
-    		feed_url varchar(255) DEFAULT '' NOT NULL,
-    		keywords varchar(255) DEFAULT '' NULL,
-            PRIMARY KEY (id)
-          ) $charset_collate; ";
-
-    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-    dbDelta($sql);
-    //Register category
-    wp_create_category('External Source');
-}
-
-// run the install scripts upon plugin activation
-register_activation_hook(__FILE__, 'ss_options_install');
-
 //menu items
 add_action('admin_menu','sinetiks_feeder_modifymenu');
 function sinetiks_feeder_modifymenu() {
-
 	//this is the main item for the menu
 	add_menu_page('Feeds', //page title
 	'Feeds', //menu title
@@ -32,7 +17,6 @@ function sinetiks_feeder_modifymenu() {
 	'sinetiks_feeder_list', //menu slug
 	'sinetiks_feeder_list' //function
 	);
-
 	//this is a submenu
 	add_submenu_page('sinetiks_feeder_list', //parent slug
 	'Add New Feed', //page title
@@ -40,7 +24,6 @@ function sinetiks_feeder_modifymenu() {
 	'manage_options', //capability
 	'sinetiks_feeder_create', //menu slug
 	'sinetiks_feeder_create'); //function
-
 	//this submenu is HIDDEN, however, we need to add it anyways
 	add_submenu_page(null, //parent slug
 	'Update Feed', //page title
@@ -53,32 +36,3 @@ define('ROOTDIR', plugin_dir_path(__FILE__));
 require_once(ROOTDIR . 'feed-list.php');
 require_once(ROOTDIR . 'feed-create.php');
 require_once(ROOTDIR . 'feed-update.php');
-
-register_activation_hook( __FILE__, 'table_install' );
-//Installs wp_feeder database
-function table_install( )
-{
-    global $wpdb;
-
-    $table_name = $wpdb->prefix . 'feeder';
-
-    $charset_collate = $wpdb->get_charset_collate();
-
-    $sql = "CREATE TABLE $table_name (
-        id int NOT NULL AUTO_INCREMENT,
-        title tinytext NOT NULL,
-        feed_url varchar(255) DEFAULT '' NOT NULL,
-        PRIMARY KEY  (id)
-    ) $charset_collate;";
-
-    require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-    dbDelta( $sql );
-}
-
-register_uninstall_hook( __FILE__, 'uninstall_feeder' );
-function uninstall_feeder()
-{
-  global $wpdb;
-  $table = $wpdb->prefix . 'feeder';
-  $wpdb->query("DROP TABLE $table;");
-}
