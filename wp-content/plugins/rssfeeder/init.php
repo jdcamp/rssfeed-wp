@@ -80,5 +80,5 @@ function uninstall_feeder()
 {
   global $wpdb;
   $table = $wpdb->prefix . 'feeder';
-  $wpdb->query("DROP TABLE '$table';");
+  $wpdb->query("DROP TABLE $table;");
 }
