@@ -1,5 +1,5 @@
-<?php get_header(); ?>
 <?php wp_enqueue_style('mystyle', get_template_directory_uri() . '/css/post.css'); ?>
+<?php get_header(); ?>
 
 <!-- Post Content -->
 <section id="content" role="main">

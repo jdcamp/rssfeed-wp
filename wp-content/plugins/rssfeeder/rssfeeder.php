@@ -24,7 +24,7 @@ function table_install()
           title tinytext NOT NULL,
       feed_url varchar(255) DEFAULT '' NOT NULL,
       keywords varchar(255) DEFAULT '' NULL,
-      keywords varchar(255) DEFAULT '' NOT NULL,
+      category varchar(255) DEFAULT '' NOT NULL,
           PRIMARY KEY (id)
         ) $charset_collate; ";
   require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
