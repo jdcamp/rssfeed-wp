@@ -20,7 +20,7 @@ function rssfeeder_install()
   $table_name = $wpdb->prefix . "feeder";
   $charset_collate = $wpdb->get_charset_collate();
   $sql = "CREATE TABLE $table_name (
-      id int(11) NOT NULL,
+      id int(11) NOT NULL AUTO_INCREMENT,
       title tinytext NOT NULL,
       feed_url varchar(255) DEFAULT '' NOT NULL,
       keywords varchar(255) DEFAULT '' NULL,
