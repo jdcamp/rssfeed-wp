@@ -2627,3 +2627,34 @@ Stack trace:
 [29-Jun-2017 19:54:49 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 93
 [29-Jun-2017 19:54:49 UTC] PHP Notice:  Undefined index: update_keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 100
 [29-Jun-2017 19:54:55 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 117
+[29-Jun-2017 20:24:00 UTC] PHP Notice:  Undefined property: stdClass::$categories in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-list.php on line 31
+[29-Jun-2017 20:24:33 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[29-Jun-2017 20:24:33 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 9
+[29-Jun-2017 20:24:33 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 10
+[29-Jun-2017 20:24:33 UTC] PHP Notice:  Undefined index: category in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 11
+[29-Jun-2017 20:24:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wpdb::prepare(), 1 passed in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 57 and exactly 2 expected in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php:1291
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php(57): wpdb->prepare('SELECT * from w...')
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(298): feeder_feeder_update('')
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/admin.php(222): do_action('admin_page_feed...')
+#5 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/wp-db.php on line 1291
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 9
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 10
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: category in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 11
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 71
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 79
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: update_title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 86
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 93
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: update_keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 100
+[29-Jun-2017 20:25:30 UTC] PHP Notice:  Undefined index: update_category in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 106
+[29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 9
+[29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: category in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 11
+[29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 71
+[29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 79
+[29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: update_title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 86
+[29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 93

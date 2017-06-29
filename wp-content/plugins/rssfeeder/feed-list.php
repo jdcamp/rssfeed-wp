@@ -1,12 +1,12 @@
 <?php
-function sinetiks_feeder_list() {
+function feeder_feeder_list() {
     ?>
-    <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/sinetiks-feeds/style-admin.css" rel="stylesheet" />
+    <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/feeder-feeds/style-admin.css" rel="stylesheet" />
     <div class="wrap">
         <h2>Feeds</h2>
         <div class="tablenav top">
             <div class="alignleft actions">
-                <a href="<?php echo admin_url('admin.php?page=sinetiks_feeder_create'); ?>">Add New</a>
+                <a href="<?php echo admin_url('admin.php?page=feeder_feeder_create'); ?>">Add New</a>
             </div>
             <br class="clear">
         </div>
@@ -28,9 +28,9 @@ function sinetiks_feeder_list() {
                 <tr>
                     <td class="manage-column ss-list-width"><?php echo $row->title; ?></td>
                     <td class="manage-column ss-list-width"><?php echo $row->keywords; ?></td>
-                    <td class="manage-column ss-list-width"><?php echo $row->categories; ?></td>
+                    <td class="manage-column ss-list-width"><?php echo $row->category; ?></td>
                     <td class="manage-column ss-list-width"><?php echo $row->feed_url; ?></td>
-                    <td><a href="<?php echo admin_url('admin.php?page=sinetiks_feeder_update&id=' . $row->id); ?>">Update</a></td>
+                    <td><a href="<?php echo admin_url('admin.php?page=feeder_feeder_update&id=' . $row->id); ?>">Update</a></td>
                 </tr>
             <?php } ?>
         </table>

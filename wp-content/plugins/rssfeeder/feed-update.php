@@ -1,6 +1,6 @@
 <?php
 
-function sinetiks_feeder_update()
+function feeder_feeder_update()
 {
     global $wpdb;
     $table_name = $wpdb->prefix . "feeder";
@@ -52,9 +52,9 @@ function sinetiks_feeder_update()
     }
         // delete
       elseif (isset($_POST['delete'])) {
-          $wpdb->query($wpdb->prepare("DELETE FROM $table_name WHERE id = $id"));
+          $wpdb->query($wpdb->prepare("DELETE FROM $table_name WHERE id = %s",$id));
       } else { //selecting value to update
-        $feeds = $wpdb->get_results($wpdb->prepare("SELECT * from $table_name where id = $id"));
+        $feeds = $wpdb->get_results($wpdb->prepare("SELECT * from $table_name where id = %s",$id));
           foreach ($feeds as $s) {
               $title = $s->title;
               $feed_url = $s->feed_url;
@@ -63,7 +63,7 @@ function sinetiks_feeder_update()
           }
       } ?>
   <link type="text/css" href="<?php
-    echo WP_PLUGIN_URL; ?>/sinetiks-feeds/style-admin.css" rel="stylesheet" />
+    echo WP_PLUGIN_URL; ?>/feeder-feeds/style-admin.css" rel="stylesheet" />
     <div class="wrap">
         <h2>Feeds</h2>
 
@@ -72,7 +72,7 @@ function sinetiks_feeder_update()
         ?>
           <div class="updated"><p>Feed deleted</p></div>
             <a href="<?php
-        echo admin_url('admin.php?page=sinetiks_feeder_list'); ?>">&laquo; Back to feeds list</a>
+        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
 
         <?php
 
@@ -80,34 +80,34 @@ function sinetiks_feeder_update()
         ?>
           <!-- <div class="updated"><p>Feed updated</p></div> -->
             <a href="<?php
-        echo admin_url('admin.php?page=sinetiks_feeder_list'); ?>">&laquo; Back to feeds list</a>
+        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
         <?php
 
     } elseif ($_POST['update_title']) {
         ?>
           <!-- <div class="updated"><p>Feed updated</p></div> -->
             <a href="<?php
-        echo admin_url('admin.php?page=sinetiks_feeder_list'); ?>">&laquo; Back to feeds list</a>
+        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
         <?php
 
     } elseif ($_POST['update_url'] && !is_valid_rss_url($feed_url)) {
         ?>
           <!-- <div class="updated"><p>Feed updated</p></div> -->
             <a href="<?php
-        echo admin_url('admin.php?page=sinetiks_feeder_list'); ?>">&laquo; Back to feeds list</a>
+        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
         <?php
 
     } elseif ($_POST['update_keywords']) {
         ?>
           <!-- <div class="updated"><p>Feed updated</p></div> -->
             <a href="<?php
-        echo admin_url('admin.php?page=sinetiks_feeder_list'); ?>">&laquo; Back to feeds list</a>
+        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
         <?php
     } elseif ($_POST['update_category']) {
         ?>
           <!-- <div class="updated"><p>Feed updated</p></div> -->
             <a href="<?php
-        echo admin_url('admin.php?page=sinetiks_feeder_list'); ?>">&laquo; Back to feeds list</a>
+        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
         <?php
 
     } else {

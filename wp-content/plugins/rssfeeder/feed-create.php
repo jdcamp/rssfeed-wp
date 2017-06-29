@@ -2,7 +2,7 @@
 
 require_once 'rssfeeder.php';
 
-function sinetiks_feeder_create() {
+function feeder_feeder_create() {
     $title = $_POST["title"];
     $feed_url = $_POST["feed_url"];
     $keywords = $_POST["keywords"];
@@ -24,7 +24,7 @@ function sinetiks_feeder_create() {
         echo '<div class="updated"><p>Feed not added: Duplicate or invalid</p></div>';
     }
     ?>
-    <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/sinetiks-feeds/style-admin.css" rel="stylesheet" />
+    <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/feeder-feeds/style-admin.css" rel="stylesheet" />
     <div class="wrap">
         <h2>Add New Feed</h2>
         <?php if (isset($message)): ?><div class="updated"><p><?php echo $message; ?></p></div><?php endif; ?>
