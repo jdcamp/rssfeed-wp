@@ -13,8 +13,9 @@
 
  ?>
  <!-- Header -->
- <?php get_header();?>
+ <?php get_header('search');?>
  <?php wp_enqueue_style('blog', get_template_directory_uri() . '/css/blog.css');?>
+ <?php wp_enqueue_style('dropdown', get_template_directory_uri() . '/css/dropdown.css');?>
 <div class="container">
   <div class="col-sm-9">
 

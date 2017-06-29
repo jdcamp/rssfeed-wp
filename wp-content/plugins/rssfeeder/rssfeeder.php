@@ -172,8 +172,6 @@ function get_posts_from_feed()
     }
 }
 
-
-
 add_filter('cron_schedules', 'isa_add_every_three_minutes');
 function isa_add_every_three_minutes($schedules)
 {

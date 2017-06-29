@@ -11,7 +11,16 @@
         <!-- <li><a href="#pricing">Pricing</a></li> -->
         <!-- <li><a href="#team">Team</a></li> -->
         <li><a href="/#subscribe">Subscribe</a></li>
-        <li><a href="/blog">Blog</a></li>
+
+        <li class="dropdown"><a href="/blog">Blog<span class="arrow">&#9660;</span></a>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="/featured">Editorials</a></li>
+                    <li><a href="/blog">Best from the Web</a></li>
+                </ul>
+            </div>
+        </li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li> -->

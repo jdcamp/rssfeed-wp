@@ -2250,3 +2250,7 @@ Stack trace:
 [28-Jun-2017 23:19:39 UTC] PHP Notice:  Undefined index: ADMIN_FILTER_FIELD_VALUE in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 190
 [28-Jun-2017 23:19:39 UTC] PHP Notice:  Undefined index: ADMIN_FILTER_FIELD_VALUE in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 190
 [28-Jun-2017 23:19:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 178
+[29-Jun-2017 18:27:22 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
+[29-Jun-2017 18:27:40 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
+[29-Jun-2017 18:27:51 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
+[29-Jun-2017 18:28:47 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
