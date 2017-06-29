@@ -2401,6 +2401,379 @@ Stack trace:
 [28-Jun-2017 23:24:23 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 138
 <<<<<<< HEAD
 >>>>>>> 8d07bf2875d6c9511818aa18df45f1c59ee5190c
+<<<<<<< HEAD
+[29-Jun-2017 19:23:02 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 18
+[29-Jun-2017 19:23:05 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 18
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 56
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:23:36 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 69
+[29-Jun-2017 19:23:52 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:23:52 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:23:52 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 56
+[29-Jun-2017 19:23:52 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:39:56 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:40:04 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:40:04 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:40:04 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:40:04 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:40:04 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:40:07 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:40:07 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:40:39 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:40:52 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:40:52 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:40:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:40:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:40:54 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:40:54 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:40:56 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:40:56 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:41:39 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:41:45 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:41:45 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:41:55 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:42:08 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:42:08 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:42:08 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:42:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:42:13 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:42:13 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:42:13 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:42:13 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:42:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:42:14 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:42:14 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:42:15 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:42:15 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:42:17 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:42:17 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:42:34 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:42:50 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:42:50 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:42:50 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:42:52 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:42:52 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:42:54 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:42:54 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:42:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:42:54 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:42:54 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:42:55 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:42:55 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:42:58 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:42:58 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:47:56 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:47:57 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:48:07 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:48:07 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:48:07 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:48:07 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:48:34 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:48:58 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:48:58 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:48:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:48:59 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:48:59 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:49:02 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:49:02 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:50:09 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:50:25 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:50:25 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:50:25 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 19:50:27 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:50:27 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:50:29 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:50:29 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:51:56 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:53:24 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:53:24 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:53:24 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:53:25 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 19:53:25 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:53:25 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:53:25 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:53:25 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:53:25 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:53:32 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:53:32 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:53:32 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 19:54:08 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[29-Jun-2017 19:54:08 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[29-Jun-2017 19:54:08 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 8
+[29-Jun-2017 19:54:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('feeds_page_sinetiks_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_create, is_unique_feed
+[29-Jun-2017 19:54:41 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 18
+[29-Jun-2017 19:55:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('feeds_page_sinetiks_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_create, is_unique_feed
+[29-Jun-2017 19:55:22 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 18
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 19:55:51 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 19:56:01 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 19:56:01 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:00:10 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[29-Jun-2017 20:00:10 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[29-Jun-2017 20:00:10 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 8
+[29-Jun-2017 20:00:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('feeds_page_sinetiks_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_create, is_unique_feed
+[29-Jun-2017 20:00:31 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 18
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:00:49 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:01:20 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:01:20 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:01:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 20:01:20 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:01:20 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:01:22 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:01:22 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:01:57 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:02:18 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:02:40 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:03:50 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:04:15 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:04:15 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:04:15 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 20:04:15 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:04:15 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:04:18 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:04:18 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:05:07 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:05:14 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:05:14 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:05:14 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 39 and defined in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\wp-db.php on line 1291
+[29-Jun-2017 20:05:14 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:05:40 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
+[29-Jun-2017 20:05:40 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
+[29-Jun-2017 20:05:40 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 8
+[29-Jun-2017 20:05:53 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('feeds_page_sinetiks_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_create, is_unique_feed
+[29-Jun-2017 20:05:53 UTC] PHP Notice:  Undefined variable: message in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 18
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:06:04 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 41 and defined in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\wp-db.php on line 1291
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:06:04 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:06:26 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:06:26 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:06:26 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:06:26 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:06:36 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 41 and defined in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\wp-db.php on line 1291
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:06:36 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:06:52 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:06:52 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:06:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 20:06:53 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:06:53 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:06:55 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:06:55 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:08:56 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 41 and defined in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\wp-db.php on line 1291
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:08:56 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:10:35 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 41 and defined in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\wp-db.php on line 1291
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:10:35 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:11:25 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 41 and defined in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\wp-db.php on line 1291
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-includes\functions.php on line 4139
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 54
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 58
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 61
+[29-Jun-2017 20:11:25 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 64
+[29-Jun-2017 20:11:26 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 67
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:12:45 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:13:15 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 66
+[29-Jun-2017 20:13:44 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:13:44 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:13:44 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 20:13:50 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 53
+[29-Jun-2017 20:13:50 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 57
+[29-Jun-2017 20:13:52 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 60
+[29-Jun-2017 20:13:52 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 63
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 8
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 54
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 58
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 61
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: update_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 64
+[29-Jun-2017 20:15:12 UTC] PHP Notice:  Undefined index: update_keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 67
+[29-Jun-2017 20:15:39 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 7
+[29-Jun-2017 20:15:39 UTC] PHP Notice:  Undefined index: keywords in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 9
+[29-Jun-2017 20:15:39 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_sinetiks_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, sinetiks_feeder_update, is_unique_feed
+[29-Jun-2017 20:15:40 UTC] PHP Notice:  Undefined index: delete in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 54
+[29-Jun-2017 20:15:40 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 58
+[29-Jun-2017 20:15:42 UTC] PHP Notice:  Undefined index: update_title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 61
+[29-Jun-2017 20:15:42 UTC] PHP Notice:  Undefined variable: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-update.php on line 64
+[29-Jun-2017 20:30:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_feeder_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_update, is_unique_feed
+[29-Jun-2017 20:33:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_feeder_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_update, is_unique_feed
+[29-Jun-2017 20:33:52 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_feeder_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_update, is_unique_feed
+[29-Jun-2017 20:34:10 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('admin_page_feeder_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_update, is_unique_feed
+[29-Jun-2017 20:37:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('feeds_page_feeder_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_create, is_unique_feed
+[29-Jun-2017 20:38:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('feeds_page_feeder_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_create, is_unique_feed
+[29-Jun-2017 20:41:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = '0'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = '0'; made by do_action('feeds_page_feeder_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_create, is_unique_feed
+[29-Jun-2017 20:49:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''wp_feeder' where feed_url = 'http://medium.com/feed/the-story'' at line 1 for query SELECT * FROM 'wp_feeder' where feed_url = 'http://medium.com/feed/the-story'; made by do_action('feeds_page_feeder_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_create, is_unique_feed
+=======
 [29-Jun-2017 20:44:14 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
 [29-Jun-2017 20:44:14 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
 [29-Jun-2017 20:44:14 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 9
@@ -2676,3 +3049,6 @@ Stack trace:
 [29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: update_title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 86
 [29-Jun-2017 20:25:38 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 93
 >>>>>>> source
+>>>>>>> 4ede69052fe8b24810b089fb1d8128cda54f8e00
+[29-Jun-2017 21:08:24 UTC] WordPress database error Unknown column 'category' in 'field list' for query UPDATE `wp_feeder` SET `category` = 'Green Technology' WHERE `id` = '29' made by do_action('admin_page_feeder_feeder_update'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_update
+[29-Jun-2017 21:21:55 UTC] WordPress database error Unknown column 'category' in 'field list' for query INSERT INTO `wp_feeder` (`title`, `feed_url`, `keywords`, `category`) VALUES ('sports illustrated', 'www.si.com/rss/si_topstories.rss', '', 'sports') made by do_action('feeds_page_feeder_feeder_create'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, feeder_feeder_create
