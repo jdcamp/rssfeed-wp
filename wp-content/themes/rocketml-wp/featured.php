@@ -14,10 +14,7 @@
  ?>
  <!-- Header -->
  <?php get_header('search');?>
-<<<<<<< HEAD
-=======
 
->>>>>>> 8d07bf2875d6c9511818aa18df45f1c59ee5190c
  <?php wp_enqueue_style('blog', get_template_directory_uri() . '/css/blog.css');?>
  <?php wp_enqueue_style('dropdown', get_template_directory_uri() . '/css/dropdown.css');?>
 <div class="container">
@@ -25,15 +22,15 @@
 
  <?php
  $args = array(
-    'post_type'        => 'post',
+     'post_type'        => 'post',
      'posts_per_page'   => 5,
-     'paged'        => get_query_var('paged') ? get_query_var('paged') : 1,
-     'meta_query' => array(
-       array(
-         'key' => '_source',
-         'value' => 'internal'
-       )
-       )
+     'paged'            => get_query_var('paged') ? get_query_var('paged') : 1,
+     'meta_query'       => array(
+         array(
+             'key' => '_source',
+             'value' => 'internal'
+         )
+     )
  );
 
  // Custom query.

@@ -57,7 +57,7 @@ function is_unique_feed( $url )
 function add_rss_post_page( )
 {
     add_posts_page( 'rss feeder', 'rss feeder', 'manage_options', 'rss-feeder', 'rss_form' );
-    add_posts_page( 'feeds', 'feeds', 'manage_options', 'feeds-list', 'sinetiks_feeder_list', 'sinetiks_feeder_update', 'sinetiks_feeder_create' );
+    add_posts_page( 'feeds', 'feeds', 'manage_options', 'feeds-list', 'feeder_feeder_list', 'feeder_feeder_update', 'feeder_feeder_create' );
 }
 //returns true if id matched guid in database. prevents duplicate posts
 function is_guid_unique( $id )
