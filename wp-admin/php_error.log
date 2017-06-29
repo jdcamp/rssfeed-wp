@@ -1622,3 +1622,6 @@ Stack trace:
 [23-Jun-2017 00:06:30 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 151
 [23-Jun-2017 00:06:33 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\rssfeeder.php on line 151
 >>>>>>> origin/master
+[29-Jun-2017 22:02:17 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/Guest/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 42
+[29-Jun-2017 22:02:17 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/Guest/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 42
+[29-Jun-2017 22:02:17 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/Guest/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 42
