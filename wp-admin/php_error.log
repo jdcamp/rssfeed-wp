@@ -2069,6 +2069,147 @@ Stack trace:
 [27-Jun-2017 19:47:12 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
 [27-Jun-2017 19:47:23 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
 [27-Jun-2017 19:47:31 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+<<<<<<< HEAD
+[27-Jun-2017 20:23:28 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 20:23:56 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:16:12 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:16:22 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:16:55 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:17:20 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 21:17:30 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:16:13 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[27-Jun-2017 23:16:13 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[27-Jun-2017 23:16:13 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[27-Jun-2017 23:16:27 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+[27-Jun-2017 23:16:36 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[27-Jun-2017 23:16:36 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 9
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 63
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 67
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 70
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 73
+[27-Jun-2017 23:16:37 UTC] PHP Notice:  Undefined index: update_keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 76
+[27-Jun-2017 23:16:45 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 7
+[27-Jun-2017 23:16:45 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 8
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: delete in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 63
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 67
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: update_title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 70
+[27-Jun-2017 23:16:46 UTC] PHP Notice:  Undefined index: update_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-update.php on line 73
+[27-Jun-2017 23:18:09 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:18:55 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:25:35 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[27-Jun-2017 23:29:25 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 17:56:03 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/functions.php on line 4139
+[28-Jun-2017 17:56:03 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'query' at line 1 for query query made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_original_post
+[28-Jun-2017 17:56:03 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 17:58:05 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/functions.php on line 4139
+[28-Jun-2017 17:58:05 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'query' at line 1 for query query made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_original_post
+[28-Jun-2017 17:58:05 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 17:58:11 UTC] PHP Notice:  wpdb::prepare was called <strong>incorrectly</strong>. The query argument of wpdb::prepare() must have a placeholder. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.9.0.) in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/functions.php on line 4139
+[28-Jun-2017 17:58:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'query' at line 1 for query query made by get_default_post_to_edit, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, save_original_post
+[28-Jun-2017 17:58:11 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 18:01:24 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 18:01:59 UTC] PHP Notice:  Undefined variable: source in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/themes/rocketml-wp/functions.php on line 84
+[28-Jun-2017 20:39:14 UTC] PHP Fatal error:  Cannot redeclare table_install() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:15) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php on line 76
+[28-Jun-2017 20:39:15 UTC] PHP Fatal error:  Cannot redeclare table_install() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:15) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php on line 76
+[28-Jun-2017 20:39:15 UTC] PHP Fatal error:  Cannot redeclare table_install() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:15) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php on line 76
+[28-Jun-2017 20:44:04 UTC] PHP Parse error:  syntax error, unexpected 'register_uninstall_hook' (T_STRING) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 32
+[28-Jun-2017 20:44:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_install_hook() in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php:31
+Stack trace:
+#0 /Users/jakecampa/Desktop/rssfeed-wp/wp-settings.php(303): include_once()
+#1 /Users/jakecampa/Desktop/rssfeed-wp/wp-config.php(91): require_once('/Users/jakecamp...')
+#2 /Users/jakecampa/Desktop/rssfeed-wp/wp-load.php(37): require_once('/Users/jakecamp...')
+#3 /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/admin.php(31): require_once('/Users/jakecamp...')
+#4 /Users/jakecampa/Desktop/rssfeed-wp/wp-admin/plugins.php(10): require_once('/Users/jakecamp...')
+#5 {main}
+  thrown in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 31
+[28-Jun-2017 20:44:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'install_table' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[28-Jun-2017 20:55:02 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/rssfeeder.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 20:55:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'init.ss_options_install' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[28-Jun-2017 20:57:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'init.ss_options_install' not found or invalid function name in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[28-Jun-2017 20:57:42 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/rssfeeder.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 20:59:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'init' not found in /Users/jakecampa/Desktop/rssfeed-wp/wp-includes/class-wp-hook.php on line 298
+[28-Jun-2017 21:02:18 UTC] PHP Fatal error:  Cannot redeclare ss_options_install() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php:5) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php on line 19
+[28-Jun-2017 21:02:22 UTC] PHP Fatal error:  Cannot redeclare ss_options_install() (previously declared in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php:5) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/init.php on line 19
+[28-Jun-2017 21:03:05 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/rssfeeder.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 21:04:30 UTC] PHP Warning:  require_once(/init.php): failed to open stream: No such file or directory in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 9
+[28-Jun-2017 21:04:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/init.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.1/lib/php') in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 9
+[28-Jun-2017 21:04:53 UTC] PHP Warning:  require_once(../init.php): failed to open stream: No such file or directory in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 9
+[28-Jun-2017 21:04:53 UTC] PHP Fatal error:  require_once(): Failed opening required '../init.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.1/lib/php') in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 9
+[28-Jun-2017 21:05:28 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/rssfeeder.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 21:08:29 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+          title tinytext NOT NULL,
+      feed_url varchar(255) DEFAULT '' NOT NULL,
+      keywords varchar(255) DEFAULT '' NULL,
+          PRIMARY KEY (id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/rssfeeder.php'), WP_Hook->do_action, WP_Hook->apply_filters, table_install, dbDelta
+[28-Jun-2017 21:09:06 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+          title tinytext NOT NULL,
+      feed_url varchar(255) DEFAULT '' NOT NULL,
+      keywords varchar(255) DEFAULT '' NULL,
+          PRIMARY KEY (id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/rssfeeder.php'), WP_Hook->do_action, WP_Hook->apply_filters, table_install, dbDelta
+[28-Jun-2017 21:11:02 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/init.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 21:12:11 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/init.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 21:13:26 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/init.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 21:14:51 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/init.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 21:15:09 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+          title tinytext NOT NULL,
+      feed_url varchar(255) DEFAULT '' NOT NULL,
+      keywords varchar(255) DEFAULT '' NULL,
+          PRIMARY KEY (id)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/rssfeeder.php'), WP_Hook->do_action, WP_Hook->apply_filters, table_install, dbDelta
+[28-Jun-2017 21:16:13 UTC] WordPress database error Key column 'id' doesn't exist in table for query CREATE TABLE wp_feeder (
+            title tinytext NOT NULL,
+    		feed_url varchar(255) DEFAULT '' NOT NULL,
+    		keywords varchar(255) DEFAULT '' NULL,
+            PRIMARY KEY (id)
+          ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_rssfeeder/init.php'), WP_Hook->do_action, WP_Hook->apply_filters, ss_options_install, dbDelta
+[28-Jun-2017 21:18:19 UTC] PHP Notice:  Undefined index: title in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 6
+[28-Jun-2017 21:18:19 UTC] PHP Notice:  Undefined index: feed_url in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 7
+[28-Jun-2017 21:18:19 UTC] PHP Notice:  Undefined index: keywords in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 8
+[28-Jun-2017 21:18:29 UTC] PHP Notice:  Undefined variable: message in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/feed-create.php on line 18
+=======
 >>>>>>> ead2e11ed2a2170d954ff2503f5ab9b18c75a429
 [27-Jun-2017 22:08:39 UTC] PHP Notice:  Undefined index: title in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 6
 [27-Jun-2017 22:08:39 UTC] PHP Notice:  Undefined index: feed_url in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\plugins\rssfeeder\feed-create.php on line 7
@@ -2250,7 +2391,12 @@ Stack trace:
 [28-Jun-2017 23:19:39 UTC] PHP Notice:  Undefined index: ADMIN_FILTER_FIELD_VALUE in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 190
 [28-Jun-2017 23:19:39 UTC] PHP Notice:  Undefined index: ADMIN_FILTER_FIELD_VALUE in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 190
 [28-Jun-2017 23:19:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 178
+<<<<<<< HEAD
 [29-Jun-2017 18:27:22 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
 [29-Jun-2017 18:27:40 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
 [29-Jun-2017 18:27:51 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
 [29-Jun-2017 18:28:47 UTC] PHP Notice:  Undefined variable: source in C:\Users\jkiya_000\Desktop\rssfeed-wp\wp-content\themes\rocketml-wp\functions.php on line 117
+=======
+>>>>>>> origin/source
+[28-Jun-2017 23:24:23 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/jakecampa/Desktop/rssfeed-wp/wp-content/plugins/rssfeeder/rssfeeder.php on line 138
+>>>>>>> 8d07bf2875d6c9511818aa18df45f1c59ee5190c

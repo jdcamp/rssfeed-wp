@@ -44,10 +44,10 @@ global $query;
          get_template_part('template-parts/content', 'blogposts');
      }
  }
-
-
  ?>
-<?php get_template_part('template-parts/content', 'pagination') ?>
+ <div class="text-center">
+   <?php get_template_part('template-parts/content', 'pagination') ?>
+ </div>
 </div>
 <div class="col-sm-3">
   <?php get_sidebar(); ?>

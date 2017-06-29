@@ -98,8 +98,11 @@ hr {
     clear: both;
 }
 
-.suggestions {
+.suggestions{
     text-align: center;
+}
+.feed-link{
+  text-align: center;
 }
 
 .site-footer small, .footer-links a {
