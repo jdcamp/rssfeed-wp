@@ -1,14 +1,17 @@
-<!-- blog page welcome section -->
+
 <div class="row">
+  <!-- left side of post -->
    <div class="col-sm-3 post-meta">
       <?php
          $date = get_the_date();
+         //gets classes associated with post
          $classes = implode(get_post_class(), ' ');
          ?>
       <h4><?php echo $date; ?></h4>
       <p>Posted by: <?php echo get_the_author(); ?></p>
       <p>Source: <?php echo get_post_meta(get_the_ID(), '_source', 1); ?></p>
       <?php
+      //displays edit post link when logged in as admin
          edit_post_link(
            sprintf(
              /* translators: %s: Name of current post */
@@ -20,6 +23,7 @@
          );
          ?>
    </div>
+   <!-- right side of post -->
    <div class="col-sm-9">
       <div id="post-<?php echo get_the_ID(); ?>" class="<?php echo $classes ;?>">
          <header class="entry-header">
@@ -29,8 +33,8 @@
          </header>
          <div class="entry-content">
             <?php
+            //displays summary of post
                the_excerpt();
-
                wp_link_pages(array(
                    'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages:', 'rocketml-wp') . '</span>',
                    'after'       => '</div>',

@@ -21,6 +21,7 @@ function table_install()
           title tinytext NOT NULL,
       feed_url varchar(255) DEFAULT '' NOT NULL,
       keywords varchar(255) DEFAULT '' NULL,
+      keywords varchar(255) DEFAULT '' NOT NULL,
           PRIMARY KEY (id)
         ) $charset_collate; ";
   require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
@@ -41,13 +42,11 @@ function add_feed_url( )
     ) );
 }
 //checks if feed is already in the database
-function is_unique_feed( $url )
+function is_unique_feed($url)
 {
     global $wpdb;
-    $table  = $wpdb->prefix . 'feeder';
-    $query = $wpdb->prepare("SELECT * FROM %s where feed_url = '%d';",$table,$url);
-    $result = $wpdb->get_results( $query);
-    if ( empty( $result ) ) {
+    $result = $wpdb->get_results("SELECT * FROM wp_feeder where feed_url = '$url'");
+    if (empty($result)) {
         return true;
     } else {
         return false;
@@ -124,6 +123,7 @@ function get_posts_from_feed( )
     foreach ( $result as $queried_feed ) {
         $my_feed  = $queried_feed->feed_url;
         $keywords = $queried_feed->keywords;
+        $category = $queried_feed->category;
         //if there are keywords sets to an array
         if ( $keywords ) {
             $keywords = explode( ',', $keywords );
@@ -154,11 +154,17 @@ function get_posts_from_feed( )
                     $url = $item->getUrl();
                     $body = $item->getContent();
                     $tags = implode(', ',$item->getCategories());
-                    $namespaces = implode(', ', $item->getNamespaces());
-                    $body = $body . '<br><a href="' . $url . '"> Read Original Article Here</a><br>';
+                    $body       = wp_trim_words($body, 128) .
+                                       '<br>
+                                        <p class="feed-link">
+                                          <a href="' . $url . '">
+                                            <button class="btn btn-single">Read Original Article Here</button>
+                                            </a>
+                                        </p>
+                                        <br>';
                     $date = $item->getPublishedDate();
                     $date = date_format($date, 'Y-m-d H:i:s');
-                    $category = get_category_by_slug('External Source');
+                    $category = get_term_by('name', $category, 'category');
                     $trimmed = parse_url($url);
                     $source = str_replace('www.', "", $trimmed['host']);
                     $args = array(
