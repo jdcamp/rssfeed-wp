@@ -23,12 +23,12 @@
     'post_type'        => 'post',
      'posts_per_page'   => 5,
      'paged'        => get_query_var('paged') ? get_query_var('paged') : 1,
-     'meta_query' => array(
-       array(
-         'key' => '_source',
-         'value' => 'medium.com'
-       )
-       )
+    //  'meta_query' => array(
+    //    array(
+    //      'key' => '_source',
+    //      'value' => 'medium.com'
+    //    )
+    //    )
  );
 
  // Custom query.

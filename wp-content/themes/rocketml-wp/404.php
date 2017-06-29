@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('search'); ?>
 <section id="content" role="main">
 <article id="post-0" class="post not-found">
 <header class="header">
