@@ -1,5 +1,5 @@
-<?php get_header(); ?>
 <?php wp_enqueue_style('mystyle', get_template_directory_uri() . '/css/post.css'); ?>
+<?php get_header(); ?>
 
 <!-- Post Content -->
 <section id="content" role="main">
@@ -17,6 +17,7 @@
     <p>Related Posts</p>
 
     <?php
+        //gets related posts based on tags
         $tags = wp_get_post_tags($post->ID);
         if ($tags) {
             $first_tag = $tags[0]->term_id;

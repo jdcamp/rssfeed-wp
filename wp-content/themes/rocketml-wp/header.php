@@ -14,6 +14,7 @@
 <link href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/css/magnific-popup.css" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/css/main.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/dropdown.css" rel="stylesheet">
 <script type="text/javascript" src="<?php  echo get_template_directory_uri();?>/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="<?php  echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php  echo get_template_directory_uri();?>/js/waypoints.min.js"></script>
@@ -68,5 +69,4 @@
   ?>
 
   <!--welcome message end-->
-
 </header>

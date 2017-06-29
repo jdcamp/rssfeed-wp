@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Blog Page Template
+ * Template Name: Featured Page Template
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
  * It is used to display a page when nothing more specific matches a query.
@@ -13,22 +13,24 @@
 
  ?>
  <!-- Header -->
- <?php get_header();?>
+ <?php get_header('search');?>
+
  <?php wp_enqueue_style('blog', get_template_directory_uri() . '/css/blog.css');?>
+ <?php wp_enqueue_style('dropdown', get_template_directory_uri() . '/css/dropdown.css');?>
 <div class="container">
   <div class="col-sm-9">
 
  <?php
  $args = array(
-    'post_type'        => 'post',
+     'post_type'        => 'post',
      'posts_per_page'   => 5,
-     'paged'        => get_query_var('paged') ? get_query_var('paged') : 1,
-    //  'meta_query' => array(
-    //    array(
-    //      'key' => '_source',
-    //      'value' => 'medium.com'
-    //    )
-    //    )
+     'paged'            => get_query_var('paged') ? get_query_var('paged') : 1,
+     'meta_query'       => array(
+         array(
+             'key' => '_source',
+             'value' => 'internal'
+         )
+     )
  );
 
  // Custom query.
@@ -44,10 +46,10 @@ global $query;
          get_template_part('template-parts/content', 'blogposts');
      }
  }
+
+
  ?>
- <div class="text-center">
-   <?php get_template_part('template-parts/content', 'pagination') ?>
- </div>
+<?php get_template_part('template-parts/content', 'pagination') ?>
 </div>
 <div class="col-sm-3">
   <?php get_sidebar(); ?>
