@@ -1,4 +1,5 @@
 <?php
+//Update or delete rss feed from database in the admin menu
 
 function feeder_feeder_update()
 {
@@ -10,39 +11,46 @@ function feeder_feeder_update()
     $keywords = $_POST["keywords"];
     $category = $_POST["category"];
 
-    // update
-
-    if (isset($_POST['update_url']) && is_unique_feed($url) && is_valid_rss_url($url)) {
-        $wpdb->update($table_name, //table
+    // update the rss feed url
+    if (isset($_POST['update_url']) && is_unique_feed($url) && is_valid_rss_url($url)) {// checks to make sure the url is unique and a valid rss feed
+        $wpdb->update($table_name,//table
         array(
-            'feed_url' => $url
-        ), //data
+            'feed_url' => $url//data
+        ),
         array(
-            'id' => $id
+            'id' => $id//data
         ));
         echo '<div class="updated"><p>Feed updated</p></div>';
-    } elseif (isset($_POST['update_title'])) {
-        $wpdb->update($table_name, //table
+    }
+    // update the rss feed title
+    elseif (isset($_POST['update_title'])) {
+        $wpdb->update($table_name,
         array(
             'title' => $title
         ), array(
             'id' => $id
         ));
         echo '<div class="updated"><p>Feed title updated</p></div>';
-    } elseif (isset($_POST['update_url']) && (!is_unique_feed($url) || !is_valid_rss_url($url))) {
+    }
+    // if updated url is not valid or is a duplicate, display error message
+    elseif (isset($_POST['update_url']) && (!is_unique_feed($url) || !is_valid_rss_url($url))) {
         echo '<div class="updated"><p>Feed not updated: duplicate or invalid</p></div>';
-    } elseif (isset($_POST['update_keywords'])) {
-        $wpdb->update($table_name, //table
+    }
+    // update rss feed keywords
+    elseif (isset($_POST['update_keywords'])) {
+        $wpdb->update($table_name,
         array(
             'keywords' => $keywords
         ), array(
             'id' => $id
         ));
         echo '<div class="updated"><p>Keywords updated</p></div>';
-    } elseif (isset($_POST['update_category'])) {
-      $temp_category = get_term_by('name', $_POST['category'], 'category');
-      $temp_category != false ? : wp_create_category($_POST['category']);
-        $wpdb->update($table_name, //table
+    }
+    // update rss feed category
+    elseif (isset($_POST['update_category'])) {
+        $temp_category = get_term_by('name', $_POST['category'], 'category');//checks for category already in database
+        $temp_category != false ? : wp_create_category($_POST['category']);//if not in database, create it in database
+        $wpdb->update($table_name,
         array(
             'category' => $category
         ), array(
@@ -50,115 +58,110 @@ function feeder_feeder_update()
         ));
         echo '<div class="updated"><p>Category updated</p></div>';
     }
-        // delete
-      elseif (isset($_POST['delete'])) {
-          $wpdb->query($wpdb->prepare("DELETE FROM $table_name WHERE id = %s",$id));
-      } else { //selecting value to update
+    //delete rss feed from database
+    elseif (isset($_POST['delete'])) {
+        $wpdb->query($wpdb->prepare("DELETE FROM $table_name WHERE id = %s",$id));
+    }
+    //selecting value to update
+    else {
         $feeds = $wpdb->get_results($wpdb->prepare("SELECT * from $table_name where id = %s",$id));
-          foreach ($feeds as $s) {
-              $title = $s->title;
-              $feed_url = $s->feed_url;
-              $keywords = $s->keywords;
-              $category = $s->category;
-          }
-      } ?>
-  <link type="text/css" href="<?php
-    echo WP_PLUGIN_URL; ?>/feeder-feeds/style-admin.css" rel="stylesheet" />
+        foreach ($feeds as $s) {
+            $title = $s->title;
+            $feed_url = $s->feed_url;
+            $keywords = $s->keywords;
+            $category = $s->category;
+        }
+    } ?>
+
+    <!-- front end UI -->
+    <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/style-admin.css" rel="stylesheet" />
     <div class="wrap">
         <h2>Feeds</h2>
-
         <?php
-    if ($_POST['delete']) {
-        ?>
-          <div class="updated"><p>Feed deleted</p></div>
+        //feed deleted message
+        if ($_POST['delete']) {
+            ?>
+            <div class="updated"><p>Feed deleted</p></div>
             <a href="<?php
-        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
-
-        <?php
-
-    } elseif ($_POST['update_url'] && is_valid_rss_url($feed_url)) {
-        ?>
-          <!-- <div class="updated"><p>Feed updated</p></div> -->
+            echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
+            <?php
+        }
+        //feed url updated message
+        elseif ($_POST['update_url'] && is_valid_rss_url($feed_url)) {
+            ?>
+            <div class="updated"><p>Feed url updated</p></div>
             <a href="<?php
-        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
-        <?php
-
-    } elseif ($_POST['update_title']) {
-        ?>
-          <!-- <div class="updated"><p>Feed updated</p></div> -->
+            echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
+            <?php
+        }
+        //feed title updated message
+        elseif ($_POST['update_title']) {
+            ?>
+            <div class="updated"><p>Feed title updated</p></div>
             <a href="<?php
-        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
-        <?php
-
-    } elseif ($_POST['update_url'] && !is_valid_rss_url($feed_url)) {
-        ?>
-          <!-- <div class="updated"><p>Feed updated</p></div> -->
+            echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
+            <?php
+        }
+        //feed keywords updated message
+        elseif ($_POST['update_keywords']) {
+            ?>
+            <div class="updated"><p>Feed keywords updated</p></div>
             <a href="<?php
-        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
-        <?php
-
-    } elseif ($_POST['update_keywords']) {
-        ?>
-          <!-- <div class="updated"><p>Feed updated</p></div> -->
+            echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
+            <?php
+        }
+        //feed category updated message
+        elseif ($_POST['update_category']) {
+            ?>
+            <div class="updated"><p>Feed category updated</p></div>
             <a href="<?php
-        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
-        <?php
-    } elseif ($_POST['update_category']) {
-        ?>
-          <!-- <div class="updated"><p>Feed updated</p></div> -->
-            <a href="<?php
-        echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
-        <?php
-
-    } else {
-        ?>
-          <form method="post" action="<?php
-        echo $_SERVER['REQUEST_URI']; ?>">
+            echo admin_url('admin.php?page=feeder_feeder_list'); ?>">&laquo; Back to feeds list</a>
+            <?php
+        }
+        //display admin input form
+        else {
+            ?>
+            <!-- update title -->
+            <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
                 <table class='wp-list-table widefat fixed'>
                     <tr><th class="ss-th-width">Title</th>
-                        <td><input type="text" name="title" value="<?php
-        echo $title; ?>"/>
+                        <td><input type="text" name="title" value="<?php echo $title; ?>"/>
                         <input type='submit' name="update_title" value='Update Title' class='button'> &nbsp;&nbsp;</td>
                     </tr>
                 </table>
             </form>
-            <form method="post" action="<?php
-        echo $_SERVER['REQUEST_URI']; ?>">
+            <!-- update url -->
+            <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
                 <table class='wp-list-table widefat fixed'>
                     <tr><th class="ss-th-width">URL</th>
-                        <td><input type="text" name="feed_url" value="<?php
-        echo $feed_url; ?>"/>
+                        <td><input type="text" name="feed_url" value="<?php echo $feed_url; ?>"/>
                         <input type='submit' name="update_url" value='Update URL' class='button'> &nbsp;&nbsp;</td>
                     </tr>
                 </table>
             </form>
-            <form method="post" action="<?php
-        echo $_SERVER['REQUEST_URI']; ?>">
+            <!-- update keywords -->
+            <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
                 <table class='wp-list-table widefat fixed'>
                     <tr><th class="ss-th-width">Keywords</th>
-                        <td><input type="text" name="keywords" value="<?php
-        echo $keywords; ?>"/>
+                        <td><input type="text" name="keywords" value="<?php echo $keywords; ?>"/>
                         <input type='submit' name="update_keywords" value='Update Keywords' class='button'> &nbsp;&nbsp;</td>
                     </tr>
                 </table>
             </form>
-            <form method="post" action="<?php
-        echo $_SERVER['REQUEST_URI']; ?>">
+            <!-- update category -->
+            <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
                 <table class='wp-list-table widefat fixed'>
                     <tr><th class="ss-th-width">Category</th>
-                        <td><input type="text" name="category" value="<?php
-        echo $category; ?>"/>
+                        <td><input type="text" name="category" value="<?php echo $category; ?>"/>
                         <input type='submit' name="update_category" value='Update Category' class='button'> &nbsp;&nbsp;</td>
                     </tr>
                 </table>
-                <br /><br />
+                <br><br>
+                <!-- delete feed -->
                 <input type='submit' name="delete" value='Delete Feed' class='button' onclick="return confirm('Sure you want to delete?')">
             </form>
-        <?php
-
-    } ?>
-
+            <?php
+        } ?>
     </div>
     <?php
-
 }

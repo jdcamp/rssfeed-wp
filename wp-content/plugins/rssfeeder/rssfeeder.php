@@ -14,17 +14,18 @@ require_once 'feed-list.php';
 // add_action('admin_menu', 'add_feed_menu_page');
 //on install runs table_install()
 //Installs wp_feeder database
+register_activation_hook(__FILE__, 'rssfeeder_install');
 function rssfeeder_install()
 {
   global $wpdb;
   $table_name = $wpdb->prefix . "feeder";
   $charset_collate = $wpdb->get_charset_collate();
   $sql = "CREATE TABLE $table_name (
-      id int(11) NOT NULL,
+      id int(11) NOT NULL AUTO_INCREMENT,
       title tinytext NOT NULL,
       feed_url varchar(255) DEFAULT '' NOT NULL,
       keywords varchar(255) DEFAULT '' NULL,
-      category varchar(255) DEFAULT '' NOT NULL,
+      category varchar(255) DEFAULT '' NOT NULL
           PRIMARY KEY (id)
         ) $charset_collate; ";
   require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
@@ -32,8 +33,7 @@ function rssfeeder_install()
   //Register category
   wp_create_category('External Source');
 }
-register_activation_hook(__FILE__, 'rssfeeder_install');
-add_action('init', 'rssfeeder_install');
+// add_action('init', 'rssfeeder_install');
 
 //inserts rss url into the feed table
 function add_feed_url( )
@@ -197,7 +197,7 @@ add_filter( 'cron_schedules', 'isa_add_every_three_minutes' );
 function isa_add_every_three_minutes( $schedules )
 {
     $schedules[ 'every_three_minutes' ] = array(
-         'interval' => 600,
+         'interval' => 30,
         'display' => __( 'Every 3 Minutes', 'textdomain' )
     );
     return $schedules;
