@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: RSS Feeder
+Plugin Name: RSS Autoblog
 Description: Simple auto blogger. Takes in rss feeds and posts
 Version: 0.9
 Author: Jake C & Jayeson K
@@ -35,17 +35,6 @@ function rssfeeder_install()
 }
 // add_action('init', 'rssfeeder_install');
 
-//inserts rss url into the feed table
-function add_feed_url( )
-{
-    global $wpdb;
-    $title = $_POST[ 'title' ];
-    $url   = $_POST[ 'url' ];
-    $wpdb->insert( $wpdb->prefix . 'feeder', array(
-         'title' => $title,
-        'feed_url' => $url
-    ) );
-}
 //checks if feed is already in the database
 function is_unique_feed($url)
 {
@@ -64,18 +53,16 @@ function add_rss_post_page( )
     add_posts_page( 'feeds', 'feeds', 'manage_options', 'feeds-list', 'feeder_feeder_list', 'feeder_feeder_update', 'feeder_feeder_create' );
 }
 //returns true if id matched guid in database. prevents duplicate posts
-function is_guid_unique( $id )
+function is_unique_post( $id, $title )
 {
     global $wpdb;
     $id   = 'http://' . $id;
     $table   = $wpdb->prefix . 'posts';
-    $query   = $wpdb->prepare( 'SELECT COUNT(*) FROM %s WHERE guid = "%d" LIMIT 1;', $table, $id );
+    $query   = $wpdb->prepare( 'SELECT COUNT(*) FROM '.$table.' WHERE guid = "%s" OR post_title = "%s" LIMIT 1;', $id, $title );
     $results = $wpdb->get_var( $query );
     if ( $results > 0 ) {
-        error_log( 'id dup', 0 );
         return false;
     } else {
-        error_log( 'id unique', 0 );
         return true;
     }
 }
@@ -140,11 +127,10 @@ function get_posts_from_feed( )
         $items    = $feed->getItems();
         foreach ( $items as $item ) {
             $title = $item->getTitle();
-
             $id = $item->getId();
             $author = $item->getAuthor();
 
-            if (!get_page_by_title($title, 'OBJECT', 'post')) {
+            if (is_unique_post($id, $title)) {
                 $body = $item->getContent();
                 if (check_key_words($body, $keywords) || check_key_words($title, $keywords)) {
                     $author = $item->getAuthor();
@@ -157,7 +143,7 @@ function get_posts_from_feed( )
                     }
                     $url = $item->getUrl();
                     $body = $item->getContent();
-                    $tags = implode(', ',$item->getCategories());
+                    $tags = implode(', ', $item->getCategories());
                     $body       = wp_trim_words($body, 128) .
                                        '<br>
                                         <p class="feed-link">
@@ -176,7 +162,7 @@ function get_posts_from_feed( )
                      'post_title' => $title,
                      'post_status' => "publish",
                      'post_type' => "post",
-                     'guid' => $author->getID,
+                     'guid' => $id,
                      'post_category' => array($category->term_id),
                      'meta_input' => array(
                        '_source' => $source,
@@ -219,7 +205,7 @@ function save_original_post( $post )
     $query   = $wpdb->prepare( 'SELECT wp_posts.id
     FROM wp_posts
     JOIN wp_postmeta
-      ON wp_postmeta.post_id = %s
+      ON wp_postmeta.post_id = %d
       WHERE wp_postmeta.meta_key = "_source";', $post );
     $results = $wpdb->get_results( $query );
     if ( !$results ) {
