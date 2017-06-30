@@ -16,7 +16,7 @@ function feeder_feeder_create() {
                 array('title' => $title, 'feed_url' => $feed_url, 'keywords' => $keywords, 'category'=>$category), //data
                 array('%s', '%s') //data format
         );
-        $message.="Feed inserted";
+        $message ="Feed inserted";
         $temp_category = get_term_by('name', $category, 'category');
         $temp_category != false ? : wp_create_category($category);
 
