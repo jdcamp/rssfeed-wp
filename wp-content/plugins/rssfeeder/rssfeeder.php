@@ -21,6 +21,7 @@ require_once 'feed-list.php';
 /**
 * Adds feeder table to DB.
 */
+
 function rssfeeder_install()
 {
     global $wpdb;
@@ -31,13 +32,14 @@ function rssfeeder_install()
       title tinytext NOT NULL,
       feed_url varchar(255) DEFAULT '' NOT NULL,
       keywords varchar(255) DEFAULT '' NULL,
-      category varchar(255) DEFAULT '' NOT NULL,
+      category varchar(255) DEFAULT '' NOT NULL
           PRIMARY KEY (id)
         ) $charset_collate; ";
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 
     dbDelta($sql);
 }
+
 
 /**
 * Checks if feed is already in the database
@@ -225,6 +227,7 @@ function isa_add_every_three_minutes($schedules)
     $schedules['every_three_minutes'] = array(
         'interval' => 600,
         'display' => __('Every 3 Minutes', 'textdomain')
+
     );
     return $schedules;
 }

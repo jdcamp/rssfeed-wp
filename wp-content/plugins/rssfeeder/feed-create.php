@@ -1,4 +1,5 @@
 <?php
+//Add a new feed to the database
 
 require_once 'rssfeeder.php';
 
@@ -7,29 +8,31 @@ function feeder_feeder_create() {
     $feed_url = $_POST["feed_url"];
     $keywords = $_POST["keywords"];
     $category = $_POST["category"];
-    //insert
+    //insert the feed into database if the url is unique and valid
     if (isset($_POST['insert']) && is_unique_feed($feed_url) && is_valid_rss_url($feed_url)) {
         global $wpdb;
         $table_feed_url = $wpdb->prefix . "feeder";
         $wpdb->insert(
-                $table_feed_url, //table
-                array('title' => $title, 'feed_url' => $feed_url, 'keywords' => $keywords, 'category'=>$category), //data
-                array('%s', '%s') //data format
+            $table_feed_url, //table
+            array('title' => $title, 'feed_url' => $feed_url, 'keywords' => $keywords, 'category'=>$category), //data
+            array('%s', '%s') //data format
         );
-        $message ="Feed inserted";
-        $temp_category = get_term_by('name', $category, 'category');
-        $temp_category != false ? : wp_create_category($category);
-
-    } else {
+        $message.="Feed inserted";
+        $temp_category = get_term_by('name', $category, 'category');//checks for category already in database
+        $temp_category != false ? : wp_create_category($category);//if not in database, create it in database for make assignable to other posts
+    }
+    //if feed url is duplicate or invalid, display error message
+    else {
         echo '<div class="updated"><p>Feed not added: Duplicate or invalid</p></div>';
     }
     ?>
+
+    <!-- admin form for adding new rss feed -->
     <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/feeder-feeds/style-admin.css" rel="stylesheet" />
     <div class="wrap">
         <h2>Add New Feed</h2>
         <?php if (isset($message)): ?><div class="updated"><p><?php echo $message; ?></p></div><?php endif; ?>
         <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
-
             <table class='wp-list-table widefat fixed'>
                 <tr>
                     <th class="ss-th-width">Title</th>
