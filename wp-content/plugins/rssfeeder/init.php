@@ -1,11 +1,4 @@
 <?php
-/*
-Plugin Name: Feeds
-Description:
-Version: 1
-Author: feeder.com
-Author URI: http://feeder.com
-*/
 // function to create the DB / Options / Defaults
 //menu items
 add_action('admin_menu','feeder_feeder_modifymenu');
