@@ -52,9 +52,9 @@ function feeder_feeder_update()
     }
         // delete
       elseif (isset($_POST['delete'])) {
-          $wpdb->query($wpdb->prepare("DELETE FROM $table_name WHERE id = %s",$id));
+          $wpdb->query($wpdb->prepare("DELETE FROM $table_name WHERE id = %d;",$id));
       } else { //selecting value to update
-        $feeds = $wpdb->get_results($wpdb->prepare("SELECT * from $table_name where id = %s",$id));
+        $feeds = $wpdb->get_results($wpdb->prepare("SELECT * from $table_name where id = %d;",$id));
           foreach ($feeds as $s) {
               $title = $s->title;
               $feed_url = $s->feed_url;
