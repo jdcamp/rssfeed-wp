@@ -21,7 +21,6 @@ require_once 'feed-list.php';
 /**
 * Adds feeder table to DB.
 */
-
 function rssfeeder_install()
 {
     global $wpdb;
@@ -39,7 +38,8 @@ function rssfeeder_install()
 
     dbDelta($sql);
 }
-
+register_activation_hook(__FILE__, 'rssfeeder_install');
+add_action('init', 'rssfeeder_install');
 
 /**
 * Checks if feed is already in the database
@@ -56,16 +56,6 @@ function is_unique_feed($url)
         return false;
     }
 }
-
-/**
-* add feed menu item in the admin view
-*/
-function add_rss_post_page()
-{
-    add_posts_page('rss feeder', 'rss feeder', 'manage_options', 'rss-feeder', 'rss_form');
-    add_posts_page('feeds', 'feeds', 'manage_options', 'feeds-list', 'feeder_feeder_list', 'feeder_feeder_update', 'feeder_feeder_create');
-}
-
 
 /**
 * checks if post exists in DB by matching the guid or title
@@ -100,17 +90,16 @@ function is_unique_post($id, $title)
 */
 function check_key_words($sentence, $keywords)
 {
-    if (empty(( array )$keywords) || $keywords == null) {
+    if (empty(( array )$keywords) || $keywords == null) { //if no keywords are entered return true
         return true;
     }
-
+    //all keywords must be present in the sentence
     foreach ((array)$keywords as $keyword) {
         $keyword = trim($keyword);
-        if (stripos($sentence, $keyword) === false) {
+        if (stripos($sentence, $keyword) === false) { //if no keyword is found return false
             return false;
         }
     }
-
     return true;
 }
 
@@ -130,15 +119,6 @@ function is_valid_rss_url($url)
         return true;
     } catch (Exception $e) {
         return false;
-    }
-}
-
-// add custom fields
-
-function my_add_custom_fields($post_id, $source)
-{
-    if ($_POST['post_type'] == 'post') {
-        add_post_meta($post_id, 'source', $source, true);
     }
 }
 
@@ -255,6 +235,4 @@ if (!wp_next_scheduled('isa_add_every_three_minutes')) {
 }
 add_action('isa_add_every_three_minutes', 'get_posts_from_feed');
 add_action('save_post', 'save_original_post', 10);
-add_action('init', 'rssfeeder_install');
 add_filter('cron_schedules', 'isa_add_every_three_minutes');
-register_activation_hook(__FILE__, 'rssfeeder_install');
