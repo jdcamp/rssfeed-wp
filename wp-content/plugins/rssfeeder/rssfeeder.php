@@ -130,20 +130,20 @@ function get_posts_from_feed()
     global $wpdb;
     $table = $wpdb->prefix . 'feeder';
     $result = $wpdb->get_results("SELECT * FROM $table");
-    foreach ($result as $queried_feed) {
-        $my_feed = $queried_feed->feed_url;
+    foreach ($result as $queried_feed) { //grabs each row in the feed table
+        $queried_url = $queried_feed->feed_url;
         $keywords = $queried_feed->keywords;
         $category = $queried_feed->category;
         $category = get_term_by('name', $category, 'category');
         if ($keywords) { // if there are keywords sets to an array
             $keywords = explode(',', $keywords);
         }
-
+        //use the reader class from picoFeed to get and parse the rss feed
         $reader = new Reader;
-        $resource = $reader->download($my_feed);
+        $resource = $reader->download($queried_url);
         $parser = $reader->getParser($resource->getUrl(), $resource->getContent(), $resource->getEncoding());
         $feed = $parser->execute();
-        $items = $feed->getItems();
+        $items = $feed->getItems(); //gets each article on the rss feed
         foreach ($items as $item) {
             $title = $item->getTitle();
             $id = $item->getId();
@@ -163,6 +163,7 @@ function get_posts_from_feed()
                     $url = $item->getUrl();
                     $body = $item->getContent();
                     $tags = implode(', ', $item->getCategories());
+                    //trims the body to 128 chars and adds a link to the original article to it
                     $body = wp_trim_words($body, 128) . '<br />
                                         <p class="feed-link">
                                           <a href="' . $url . '">
@@ -173,7 +174,7 @@ function get_posts_from_feed()
                     $date = $item->getPublishedDate();
                     $date = date_format($date, 'Y-m-d H:i:s');
                     $trimmed = parse_url($url);
-                    $source = str_replace('www.', "", $trimmed['host']);
+                    $source = str_replace('www.', "", $trimmed['host']); //format the source url
                     $args = array(
                         'post_author' => $user_id,
                         'post_content' => $body,
@@ -184,12 +185,12 @@ function get_posts_from_feed()
                         'post_category' => array(
                             $category->term_id
                         ) ,
-                        'meta_input' => array(
+                        'meta_input' => array(//meta data
                             '_source' => $source,
                             '_post_author' => $author
                         ) ,
                     );
-                    if ($post_id = wp_insert_post($args)) {
+                    if ($post_id = wp_insert_post($args)) {//sets post id if post is added
                         wp_set_post_tags($post_id, $tags, true); //add tags to post
                     }
                 }
@@ -202,7 +203,7 @@ function get_posts_from_feed()
 * Sets custom cron timing
 * @param wp built in object
 */
-function isa_add_every_three_minutes($schedules)
+function add_posts_cron($schedules)
 {
     $schedules['every_three_minutes'] = array(
         'interval' => 600,
@@ -230,9 +231,9 @@ function save_original_post($post)
     }
 }
 
-if (!wp_next_scheduled('isa_add_every_three_minutes')) {
-  wp_schedule_event(time(), 'every_three_minutes', 'isa_add_every_three_minutes');
+if (!wp_next_scheduled('add_posts_cron')) {
+  wp_schedule_event(time(), 'every_three_minutes', 'add_posts_cron');
 }
-add_action('isa_add_every_three_minutes', 'get_posts_from_feed');
+add_action('add_posts_cron', 'get_posts_from_feed');
 add_action('save_post', 'save_original_post', 10);
-add_filter('cron_schedules', 'isa_add_every_three_minutes');
+add_filter('cron_schedules', 'add_posts_cron');
