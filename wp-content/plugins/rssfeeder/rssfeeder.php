@@ -5,6 +5,9 @@
 *Description: Simple auto blogger. Takes in rss feeds and posts
 *Version: 0.9
 *Author: Jake C & Jayeson K
+*
+* This plugin is designed to automaticly add posts from an rss feed. It is called by a cronjob and called every
+* three minutes. Using WP-Crontroller plugin is recommended to change the frequency of the cronjob.
 */
 use PicoFeed\Reader\Reader;
 
@@ -123,14 +126,15 @@ function is_valid_rss_url($url)
 }
 
 /**
-* Grabs feeds from the DB and uses Reader to post articles. Called by cron
+* Grabs feeds from the DB and uses Reader to post articles. Called by a cronjob
 */
 function get_posts_from_feed()
 {
-    global $wpdb;
-    $table = $wpdb->prefix . 'feeder';
+  error_log("Start get posts" , 0);
+    global $wpdb; //get the DB
+    $table = $wpdb->prefix . 'feeder'; //get the table
     $result = $wpdb->get_results("SELECT * FROM $table");
-    foreach ($result as $queried_feed) { //grabs each row in the feed table
+    foreach ($result as $queried_feed) { //grabs each row in the feed table and stores the values in variables
         $queried_url = $queried_feed->feed_url;
         $keywords = $queried_feed->keywords;
         $category = $queried_feed->category;
@@ -138,8 +142,7 @@ function get_posts_from_feed()
         if ($keywords) { // if there are keywords sets to an array
             $keywords = explode(',', $keywords);
         }
-        //use the reader class from picoFeed to get and parse the rss feed
-        $reader = new Reader;
+        $reader = new Reader; //Uses the reader class from picoFeed to get and parse the rss feed
         $resource = $reader->download($queried_url);
         $parser = $reader->getParser($resource->getUrl(), $resource->getContent(), $resource->getEncoding());
         $feed = $parser->execute();
@@ -148,19 +151,20 @@ function get_posts_from_feed()
             $title = $item->getTitle();
             $id = $item->getId();
             $author = $item->getAuthor();
-            if (is_unique_post($id, $title)) { //checks for duplicates
+            error_log("before unique if statement" , 0);
+          if (/*is_unique_post($id, $title)*/true == true) { //checks for duplicates
                 $body = $item->getContent();
                 if (check_key_words($body, $keywords) || check_key_words($title, $keywords)) { //checks for the keywords
                     $author = $item->getAuthor();
                     $user_id = get_user_by('login', $author);
-                    if (!$user_id) { //creates authors if author does not exist
+                    if (!$user_id) { //creates authors if author does not exist. Then grabs id of author from new or existing author
                         $random_password = wp_generate_password($length = 12, $include_standard_special_chars = false);
                         $user_id = wp_create_user($author, $random_password);
                     } else {
                         $user_id = get_user_by('login', $author)->get('ID');
                     }
 
-                    $url = $item->getUrl();
+                    $url = $item->getUrl(); //url of the source
                     $body = $item->getContent();
                     $tags = implode(', ', $item->getCategories());
                     //trims the body to 128 chars and adds a link to the original article to it
@@ -203,7 +207,7 @@ function get_posts_from_feed()
 * Sets custom cron timing
 * @param wp built in object
 */
-function add_posts_cron($schedules)
+function isa_add_posts($schedules)
 {
     $schedules['every_three_minutes'] = array(
         'interval' => 600,
@@ -226,14 +230,14 @@ function save_original_post($post)
       ON wp_postmeta.post_id = %d
       WHERE wp_postmeta.meta_key = "_source";', $post);
     $results = $wpdb->get_results($query);
-    if (!$results) {
+    if (!$results) { //if no posts are found add meta data to the post
         add_post_meta($post, '_source', 'internal');
     }
 }
 
-if (!wp_next_scheduled('add_posts_cron')) {
-  wp_schedule_event(time(), 'every_three_minutes', 'add_posts_cron');
+if (!wp_next_scheduled('isa_add_posts')) { //sets the schedule of the cron if one is not already set
+  wp_schedule_event(time(), 'hourly', 'isa_add_posts');
 }
-add_action('add_posts_cron', 'get_posts_from_feed');
-add_action('save_post', 'save_original_post', 10);
-add_filter('cron_schedules', 'add_posts_cron');
+add_action('isa_add_posts', 'get_posts_from_feed', 10);
+add_action('save_post', 'save_original_post', 10); //adds save posts as an action
+add_filter('cron_schedules', 'isa_add_posts');
